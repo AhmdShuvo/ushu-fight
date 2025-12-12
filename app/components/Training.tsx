@@ -40,7 +40,7 @@ export default function Training() {
                         <div className="training-slider-area">
                             <Swiper
                                 modules={[Autoplay, Navigation, Pagination]}
-                                slidesPerView={3}
+                                slidesPerView={1}
                                 spaceBetween={30}
                                 loop={true}
                                 autoplay={{
@@ -53,13 +53,13 @@ export default function Training() {
                                     prevEl: '.slider-prev',
                                 }}
                                 breakpoints={{
-                                    991: {
+                                    992: {
+                                        slidesPerView: 3,
+                                    },
+                                    768: {
                                         slidesPerView: 2,
                                     },
-                                    767: {
-                                        slidesPerView: 2,
-                                    },
-                                    575: {
+                                    576: {
                                         slidesPerView: 1,
                                     },
                                 }}
