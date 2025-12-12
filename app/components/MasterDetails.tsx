@@ -64,7 +64,7 @@ export default function MasterDetails() {
                                 <div className="trainer-about-social-area">
                                     <ul className="trainer-about-social">
                                         <li><a href="#0"><i className="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#0"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#0"><i className="fab fa-twitter"></i></a></li>
                                         <li><a href="#0"><i className="fab fa-google-plus-g"></i></a></li>
                                         <li><a href="#0"><i className="fab fa-instagram"></i></a></li>
                                     </ul>
