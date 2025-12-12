@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Footer() {
     return (
-        <footer className="footer-section pt-120">
+        <footer id="contact" className="footer-section pt-120">
             <div className="footer-bg">
                 <img src="/assets/images/bg/bg-4.png" alt="bg" />
             </div>
@@ -16,7 +16,7 @@ export default function Footer() {
                     <div className="col-xl-12">
                         <div className="footer-top">
                             <div className="footer-logo">
-                                <Link href="/" className="site-logo"><img src="/assets/images/logo-white.png" alt="logo" /></Link>
+                                <Link href="/" className="site-logo d-flex align-items-center"><img src="/assets/images/logo-removebg-preview.png" alt="logo" style={{ maxHeight: '50px' }} /> <span className="ml-2 font-weight-bold ml-2 text-white" style={{ fontSize: '24px', fontWeight: 'bold' }}>USHU</span></Link>
                             </div>
                             <ul className="footer-social">
                                 <li><a href="#0"><i className="fab fa-facebook-f"></i></a></li>
@@ -50,7 +50,7 @@ export default function Footer() {
                 <div className="row justify-content-center">
                     <div className="col-xl-8 text-center">
                         <div className="copyright-area">
-                            <p>Copyright 2024 Sword. Designed By Theme IM</p>
+                            <p>Copyright 2024 Ushu Fighting School. All Rights Reserved</p>
                         </div>
                     </div>
                 </div>

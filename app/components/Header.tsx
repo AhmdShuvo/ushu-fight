@@ -36,8 +36,9 @@ export default function Header() {
                     <div className="container-fluid">
                         <div className="header-menu-content">
                             <nav className="navbar navbar-expand-xl p-0">
-                                <Link className="site-logo site-title" href="/">
-                                    <img src="/assets/images/logo.png" alt="site-logo" />
+                                <Link className="site-logo site-title d-flex align-items-center" href="/">
+                                    <img src="/assets/images/logo-removebg-preview.png" alt="site-logo" style={{ maxHeight: '50px' }} />
+                                    <span className="ml-2 font-weight-bold ml-2" style={{ color: '#000', fontSize: '24px', fontWeight: 'bold' }}>USHU</span>
                                 </Link>
                                 <button
                                     className="navbar-toggler ml-auto"
@@ -73,54 +74,17 @@ export default function Header() {
                                                 </div>
                                             </a>
                                             <ul className="sub-menu" style={{ display: activeSubMenus['menu'] ? 'block' : '' }}>
-                                                <li className={`menu_has_children ${activeSubMenus['home'] ? 'show' : ''}`}>
-                                                    <a href="#" onClick={(e) => toggleSubMenu(e, 'home')}>HOME</a>
-                                                    <ul className="sub-menu" style={{ display: activeSubMenus['home'] ? 'block' : '' }}>
-                                                        <li><Link href="/">HOME ONE</Link></li>
-                                                        <li><Link href="/index-two">HOME TWO</Link></li>
-                                                    </ul>
-                                                </li>
-                                                <li><Link href="/about">ABOUT US</Link></li>
-                                                <li className={`menu_has_children ${activeSubMenus['training'] ? 'show' : ''}`}>
-                                                    <a href="#" onClick={(e) => toggleSubMenu(e, 'training')}>TRAINING</a>
-                                                    <ul className="sub-menu" style={{ display: activeSubMenus['training'] ? 'block' : '' }}>
-                                                        <li><Link href="/training">TRAINING</Link></li>
-                                                        <li><Link href="/training-details">TRAINING DETAILS</Link></li>
-                                                    </ul>
-                                                </li>
-                                                <li className={`menu_has_children ${activeSubMenus['pages'] ? 'show' : ''}`}>
-                                                    <a href="#" onClick={(e) => toggleSubMenu(e, 'pages')}>PAGES</a>
-                                                    <ul className="sub-menu" style={{ display: activeSubMenus['pages'] ? 'block' : '' }}>
-                                                        <li><Link href="/event">EVENTS</Link></li>
-                                                        <li><Link href="/event-details">EVENT DETAILS</Link></li>
-                                                        <li><Link href="/plan">PRICING PLAN</Link></li>
-                                                        <li><Link href="/faq">FAQ</Link></li>
-                                                        <li><Link href="/gallery">GALLERY</Link></li>
-                                                        <li><Link href="/apply">APPLY</Link></li>
-                                                        <li><Link href="/register">SIGN UP</Link></li>
-                                                        <li><Link href="/login">SIGN IN</Link></li>
-                                                        <li><Link href="/404">404 PAGE</Link></li>
-                                                    </ul>
-                                                </li>
-                                                <li className={`menu_has_children ${activeSubMenus['masters'] ? 'show' : ''}`}>
-                                                    <a href="#" onClick={(e) => toggleSubMenu(e, 'masters')}>MASTERS</a>
-                                                    <ul className="sub-menu" style={{ display: activeSubMenus['masters'] ? 'block' : '' }}>
-                                                        <li><Link href="/master">MASTERS</Link></li>
-                                                        <li><Link href="/master-details">MASTERS DETAILS</Link></li>
-                                                    </ul>
-                                                </li>
-                                                <li className={`menu_has_children ${activeSubMenus['news'] ? 'show' : ''}`}>
-                                                    <a href="#" onClick={(e) => toggleSubMenu(e, 'news')}>NEWS</a>
-                                                    <ul className="sub-menu" style={{ display: activeSubMenus['news'] ? 'block' : '' }}>
-                                                        <li><Link href="/blog">NEWS</Link></li>
-                                                        <li><Link href="/blog-classic">NEWS CLASSIC</Link></li>
-                                                        <li><Link href="/blog-details">NEWS DETAILS</Link></li>
-                                                    </ul>
-                                                </li>
-                                                <li><Link href="/contact">CONTACT US</Link></li>
+                                                <li><Link href="#home">HOME</Link></li>
+                                                <li><Link href="#about">ABOUT US</Link></li>
+                                                <li><Link href="#training">TRAINING</Link></li>
+                                                <li><Link href="#trainer">MASTERS</Link></li>
+                                                <li><Link href="#schedule">SCHEDULE</Link></li>
+                                                <li><Link href="#feature">FEATURES</Link></li>
+                                                <li><Link href="#blog">NEWS</Link></li>
+                                                <li><Link href="#contact">CONTACT US</Link></li>
                                             </ul>
                                         </li>
-                                        <li><Link href="/training">TRAINING</Link></li>
+                                        <li><Link href="#training">TRAINING</Link></li>
                                     </ul>
                                     <div className="header-right">
                                         <div className="header-links-area">
@@ -137,7 +101,7 @@ export default function Header() {
                                         </div>
                                         <div className="header-action-area">
                                             <div className="header-action">
-                                                <Link href="/contact" className="btn--base">GET IN TOUCH <i className="fas fa-arrow-right ml-2"></i></Link>
+                                                <Link href="#contact" className="btn--base">GET IN TOUCH <i className="fas fa-arrow-right ml-2"></i></Link>
                                             </div>
                                         </div>
                                     </div>

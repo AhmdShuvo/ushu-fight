@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Banner() {
     return (
-        <section className="banner-section bg_img" style={{ backgroundImage: "url('/assets/images/bg/bg-5.png')" }}>
+        <section id="home" className="banner-section bg_img" style={{ backgroundImage: "url('/assets/images/bg/bg-5.png')" }}>
             <div className="banner-element">
                 <img src="/assets/images/element/element-7.png" alt="element" />
             </div>
@@ -28,10 +28,10 @@ export default function Banner() {
                 <div className="row align-items-end mb-30-none">
                     <div className="col-xl-6 col-lg-12 mb-30">
                         <div className="banner-content" data-aos="fade-right" data-aos-duration="1800">
-                            <span className="sub-title">WELCOME TO SWORD</span>
-                            <h1 className="title">EVERY GREAT</h1>
-                            <h3 className="inner-title">JOURNEY STARTS WITH ONE STEP!</h3>
-                            <p>Morbi eleifend tortor vitae sapien laoreet feugiat. Aliquam dictum vulputate sapien eu laoreet. Aliquam purus est, molestie et sagittis sit amet, sagittis in magna. Morbi placerat commodo luctus. Etiam pulvinar dapibus risus, sit amet consectetur metus lobortis vitae.</p>
+                            <span className="sub-title">WELCOME TO USHU</span>
+                            <h1 className="title">MASTER THE ART OF</h1>
+                            <h3 className="inner-title">WUSHU FIGHTING</h3>
+                            <p>Embark on a journey of discipline and strength. Our Ushu school combines traditional Kung Fu wisdom with modern combat techniques. Discover your inner warrior and achieve physical and mental excellence.</p>
                             <div className="banner-arrow">
                                 <img src="/assets/images/element/element-10.png" alt="element" />
                             </div>
@@ -44,12 +44,12 @@ export default function Banner() {
                                     </div>
                                     <div className="banner-widget-middle">
                                         <div className="banner-widget-content">
-                                            <p className="text-white">Join over <span>4,000+</span> students</p>
+                                            <p className="text-white">Join over <span>4,000+</span> warriors</p>
                                         </div>
                                     </div>
                                     <div className="banner-widget-right">
                                         <div className="banner-widget-btn">
-                                            <Link href="/apply" className="btn--base">Apply Now <i className="fas fa-arrow-right ml-2"></i></Link>
+                                            <Link href="#contact" className="btn--base">Apply Now <i className="fas fa-arrow-right ml-2"></i></Link>
                                         </div>
                                     </div>
                                 </div>

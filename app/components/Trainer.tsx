@@ -3,20 +3,20 @@ import Link from 'next/link';
 
 export default function Trainer() {
     const trainers = [
-        { name: "Randall Schwartz", title: "Women's Trainner", img: "trainer-1.png" },
-        { name: "David Sherman", title: "Boxing Trainner", img: "trainer-2.png" },
-        { name: "Earl Lopez", title: "Karate Trainner", img: "trainer-3.png" },
-        { name: "James Gonzalez", title: "Women's Trainner", img: "trainer-4.png" },
+        { name: "Master Li", title: "Head Wushu Master", img: "trainer-1.png" },
+        { name: "Coach Zhang", title: "Sanda Champion", img: "trainer-2.png" },
+        { name: "Instructor Chen", title: "Tai Chi Expert", img: "trainer-3.png" },
+        { name: "Master Wang", title: "Shaolin Monk", img: "trainer-4.png" },
     ];
 
     return (
-        <section className="trainer-section ptb-120 bg-overlay-black bg_img" style={{ backgroundImage: "url('/assets/images/bg/bg-2.png')" }}>
+        <section id="trainer" className="trainer-section ptb-120 bg-overlay-black bg_img" style={{ backgroundImage: "url('/assets/images/bg/bg-2.png')" }}>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-xl-6 col-lg-8 text-center">
                         <div className="section-header white" data-aos="fade-up" data-aos-duration="1200">
-                            <h2 className="section-title">OUR <span>EXPERT</span> TRAINNER</h2>
-                            <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                            <h2 className="section-title">OUR <span>USHU</span> MASTERS</h2>
+                            <p>Learn from the best. Our masters have dedicated their lives to the study and teaching of Chinese martial arts, bringing authentic lineage and expertise.</p>
                         </div>
                     </div>
                 </div>

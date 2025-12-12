@@ -9,7 +9,7 @@ export default function About() {
 
     return (
         <>
-            <section className="about-section pt-120 bg-overlay-black bg_img" style={{ backgroundImage: "url('/assets/images/bg/bg-1.png')" }}>
+            <section id="about" className="about-section pt-120 bg-overlay-black bg_img" style={{ backgroundImage: "url('/assets/images/bg/bg-1.png')" }}>
                 <div className="section-logo-text">
                     <span className="title">SWORD</span>
                 </div>
@@ -45,8 +45,8 @@ export default function About() {
                         <div className="col-xl-6 col-lg-12 mb-30">
                             <div className="about-content-area">
                                 <div className="section-header white">
-                                    <h2 className="section-title">ABOUT <span>BOXING</span> SCHOOL</h2>
-                                    <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                                    <h2 className="section-title">ABOUT <span>USHU</span> TRAINING</h2>
+                                    <p>Our Ushu Fighting School has been cultivating martial arts excellence since 1986. We offer a holistic approach to Wushu, blending traditional forms with modern self-defense applications.</p>
                                 </div>
                                 <div className="about-item-area">
                                     <div className="about-item mb-30">
@@ -54,8 +54,8 @@ export default function About() {
                                             <img src="/assets/images/icon/icon-1.png" alt="icon" />
                                         </div>
                                         <div className="about-content">
-                                            <h3 className="title">FREE FITNESS TRAINING</h3>
-                                            <p>We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts schools.</p>
+                                            <h3 className="title">TRADITIONAL FORMS</h3>
+                                            <p>Experience the beauty and power of traditional Wushu forms (Taolu). Master the intricate movements and develop grace, flexibility, and focus.</p>
                                         </div>
                                     </div>
                                     <div className="about-item mb-30">
@@ -63,8 +63,8 @@ export default function About() {
                                             <img src="/assets/images/icon/icon-2.png" alt="icon" />
                                         </div>
                                         <div className="about-content">
-                                            <h3 className="title">CARDIO AND STRENGTH</h3>
-                                            <p>We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts schools.</p>
+                                            <h3 className="title">COMBAT APPLICATIONS</h3>
+                                            <p>Learn practical self-defense and Sanda (Chinese Kickboxing). We focus on real-world applications of Wushu techniques for your safety and confidence.</p>
                                         </div>
                                     </div>
                                 </div>

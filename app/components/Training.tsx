@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 
 export default function Training() {
     return (
-        <section className="training-section ptb-120">
+        <section id="training" className="training-section ptb-120">
             <div className="training-element-one my-paroller" data-paroller-factor="0.08" data-paroller-type="foreground" data-paroller-direction="horizontal">
                 <img src="/assets/images/element/element-1.png" alt="element" />
             </div>
@@ -21,8 +21,8 @@ export default function Training() {
                     <div className="col-xl-12">
                         <div className="section-header-wrapper">
                             <div className="section-header">
-                                <h2 className="section-title">OUR <span>BOXING</span> TRAINING</h2>
-                                <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                                <h2 className="section-title">OUR <span>WUSHU</span> STYLES</h2>
+                                <p>Discover the diverse world of Wushu. From explosive Sanda sparring to elegant Taolu forms, we have a specialized program for every aspiring warrior.</p>
                             </div>
                             <div className="slider-nav-area">
                                 <div className="slider-prev">
@@ -65,15 +65,15 @@ export default function Training() {
                                 }}
                                 className="training-slider"
                             >
-                                {['English Boxing', 'Personal Boxing', 'Kick Boxing'].map((title, index) => (
+                                {['Sanda Combat', 'Shaolin Styles', 'Taolu Forms'].map((title, index) => (
                                     <SwiperSlide key={index}>
                                         <div className="training-item text-center">
                                             <div className="training-icon">
                                                 <img src={`/assets/images/icon/icon-${3 + index}.png`} alt="icon" />
                                             </div>
                                             <div className="training-content">
-                                                <h3 className="title"><Link href="/training-details">{title.toUpperCase()}</Link></h3>
-                                                <p>Transport or transportation is the movement of humans, animals and goods from one location.</p>
+                                                <h3 className="title"><Link href="#training">{title.toUpperCase()}</Link></h3>
+                                                <p>Master the ancient techniques and internal power cultivation of {title}.</p>
                                             </div>
                                             <div className="training-overlay bg-overlay-base bg_img" style={{ backgroundImage: "url('/assets/images/training/training-1.png')" }}>
                                                 <div className="training-overlay-content">

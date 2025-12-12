@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Kanit, Roboto } from "next/font/google";
 import "./globals.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+import AosInit from "./components/AosInit";
 
 const kanit = Kanit({
   variable: "--font-kanit",
@@ -17,8 +21,8 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Sword - Boxing & Mixed Martial Arts Fighting Html Template",
-  description: "Sword - Boxing & Mixed Martial Arts Fighting Html Template",
+  title: "Ushu - Wushu & Kung Fu Fighting School",
+  description: "Master the art of Wushu and Kung Fu at Ushu Fighting School. Join us for traditional and modern martial arts training.",
 };
 
 export default function RootLayout({
@@ -43,7 +47,15 @@ export default function RootLayout({
         <link rel="stylesheet" href="/assets/css/style.css" />
       </head>
       <body className={`${kanit.variable} ${roboto.variable}`}>
+        <AosInit />
+        <Header />
         {children}
+        <Footer />
+        <ScrollToTop />
+        <script src="/assets/js/jquery.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>
+        <script src="/assets/js/lightcase.js"></script>
+        <script src="/assets/js/jquery.nice-select.js"></script>
       </body>
     </html>
   );
