@@ -39,7 +39,7 @@ export default function About() {
                     <div className="col-xl-6 col-lg-12 mb-30">
                         <div className="about-content-area">
                             <div className="section-header white">
-                                <h2 className="section-title">ABOUT <span>BOXING</span> SCHOOL</h2>
+                                <h2 className="section-title">ABOUT <span>ushu</span> SCHOOL</h2>
                                 <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                             </div>
                             <div className="about-item-area">

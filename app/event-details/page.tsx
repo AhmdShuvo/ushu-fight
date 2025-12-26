@@ -61,7 +61,7 @@ export default function EventDetails() {
                             <div className="event-widget-area">
                                 <div className="event-widget-content-area">
                                     <h3 className="widget-title">About this event</h3>
-                                    <p>Learn to box for real with Fit Mindful Body Club trainer and 3x Golden Glove winner, Ian Mauleon! Proven to relieve stress, you'll sweat while learning real life boxing techniques and challenging your body to new and moves. This live virtual group class will have you sweating with shadow boxing and low impact body weight exercises. Sign up via Eventbrite link and we will send you the Zoom details.</p>
+                                    <p>Learn to box for real with Fit Mindful Body Club trainer and 3x Golden Glove winner, Ian Mauleon! Proven to relieve stress, you'll sweat while learning real life ushu techniques and challenging your body to new and moves. This live virtual group class will have you sweating with shadow ushu and low impact body weight exercises. Sign up via Eventbrite link and we will send you the Zoom details.</p>
                                     <blockquote>
                                         <div className="quote-area d-flex flex-wrap">
                                             <div className="quote-icon">
@@ -133,7 +133,7 @@ export default function EventDetails() {
                                             </div>
                                         </div>
                                     </div>
-                                    <p>Learn to box for real with Fit Mindful Body Club trainer and 3x Golden Glove winner, Ian Mauleon! Proven to relieve stress, you'll sweat while learning real life boxing techniques and challenging your body to new and moves. This live virtual group class will have you sweating with shadow boxing and low impact body weight exercises. Sign up via Eventbrite link and we will send you the Zoom details.</p>
+                                    <p>Learn to box for real with Fit Mindful Body Club trainer and 3x Golden Glove winner, Ian Mauleon! Proven to relieve stress, you'll sweat while learning real life ushu techniques and challenging your body to new and moves. This live virtual group class will have you sweating with shadow ushu and low impact body weight exercises. Sign up via Eventbrite link and we will send you the Zoom details.</p>
                                 </div>
                                 <div className="event-social-area">
                                     <ul className="event-social">

@@ -55,7 +55,7 @@ export async function GET() {
             {
                 icon: "/assets/images/icon/icon-2.png",
                 title: "COMBAT APPLICATIONS",
-                description: "Learn practical self-defense and Sanda (Chinese Kickboxing). We focus on real-world applications of Wushu techniques for your safety and confidence."
+                description: "Learn practical self-defense and Sanda (Chinese Kickushu). We focus on real-world applications of Wushu techniques for your safety and confidence."
             }
         ]
     };
@@ -109,7 +109,7 @@ export async function GET() {
             author: "Coach Zhang",
             category: "Combat",
             img: "blog-2.png",
-            content: "Sanda, also known as Chinese kickboxing, is the modern combat application of traditional Wushu. While traditional Kung Fu focuses on forms and historical techniques, Sanda is built for the ring. Coach Zhang discusses the key differences and how they complement each other in a holistic training program.",
+            content: "Sanda, also known as Chinese kickushu, is the modern combat application of traditional Wushu. While traditional Kung Fu focuses on forms and historical techniques, Sanda is built for the ring. Coach Zhang discusses the key differences and how they complement each other in a holistic training program.",
             order: 2
         },
         {

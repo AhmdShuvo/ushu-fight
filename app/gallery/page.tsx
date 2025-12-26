@@ -50,7 +50,7 @@ export default function GalleryPage() {
                         <div className="button-group filter-btn-group">
                             <button className="active" data-filter="*">All</button>
                             <button data-filter=".running">Running</button>
-                            <button data-filter=".boxing">Shadow Boxing</button>
+                            <button data-filter=".ushu">Shadow ushu</button>
                             <button data-filter=".trainer">Strength Trainer</button>
                             <button data-filter=".others">Others</button>
                         </div>
@@ -72,7 +72,7 @@ export default function GalleryPage() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="grid-item boxing trainer">
+                            <div className="grid-item ushu trainer">
                                 <div className="gallery-item">
                                     <div className="gallery-thumb">
                                         <img src="/assets/images/gallery/gallery-big-2.png" alt="gallery" />
@@ -106,7 +106,7 @@ export default function GalleryPage() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="grid-item boxing">
+                            <div className="grid-item ushu">
                                 <div className="gallery-item">
                                     <div className="gallery-thumb">
                                         <img src="/assets/images/gallery/gallery-big-6.png" alt="gallery" />

@@ -61,7 +61,7 @@ export default function Blog() {
                                 <div className="blog-content">
                                     <div className="blog-post-meta">
                                         <span className="user">By : ushu Joy</span>
-                                        <span className="category"><a href="blog.html">Boxing</a></span>
+                                        <span className="category"><a href="blog.html">ushu</a></span>
                                     </div>
                                     <h3 className="title"><a href="blog-details.html">EFFECTIVE STRATEGIES AND TIPS FROM THE BEST</a></h3>
                                     <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>

@@ -35,7 +35,7 @@ export default function Contact() {
                         <div className="col-xl-10 col-lg-12 text-center">
                             <div className="section-header" data-aos="fade-up" data-aos-duration="1200">
                                 <h2 className="section-title">Ready to Get More <span>Information</span></h2>
-                                <p>There were twelve rules in all, and they specified that fights should be "a fair stand-up boxing match" in a 24-foot-square or similar ring. Rounds were three minutes with one-minute rest.</p>
+                                <p>There were twelve rules in all, and they specified that fights should be "a fair stand-up ushu match" in a 24-foot-square or similar ring. Rounds were three minutes with one-minute rest.</p>
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ export default function Contact() {
                                 <div className="section-header">
                                     <h2 className="section-title">Any Question? Feel
                                         Free to <span>Contact</span> with Us!</h2>
-                                    <p>If you have any questions or need more information, please use the form below to send us a message There were twelve rules in all, and they specified that fights should be "a fair stand-up boxing match" in a 24-foot-square or similar ring. </p>
+                                    <p>If you have any questions or need more information, please use the form below to send us a message There were twelve rules in all, and they specified that fights should be "a fair stand-up ushu match" in a 24-foot-square or similar ring. </p>
                                 </div>
                                 <div className="banner-widget">
                                     <div className="banner-widget-wrapper">

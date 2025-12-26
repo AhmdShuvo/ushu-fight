@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 export default function MoreMasters() {
     const trainers = [
         { name: "Randall Schwartz", title: "Women's Trainner", img: "trainer-1.png" },
-        { name: "David Sherman", title: "Boxing Trainner", img: "trainer-2.png" },
+        { name: "David Sherman", title: "ushu Trainner", img: "trainer-2.png" },
         { name: "Earl Lopez", title: "ushu Trainner", img: "trainer-3.png" },
         { name: "James Gonzalez", title: "Women's Trainner", img: "trainer-4.png" },
         { name: "Randall Schwartz", title: "Women's Trainner", img: "trainer-1.png" },

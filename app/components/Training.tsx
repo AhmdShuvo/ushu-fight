@@ -14,7 +14,7 @@ export default function Training() {
                     <div className="col-xl-12">
                         <div className="section-header-wrapper">
                             <div className="section-header">
-                                <h2 className="section-title">OUR <span>BOXING</span> TRAINING</h2>
+                                <h2 className="section-title">OUR <span>ushu</span> TRAINING</h2>
                                 <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                             </div>
                             <div className="slider-nav-area">
@@ -39,12 +39,12 @@ export default function Training() {
                                                 <img src="assets/images/icon/icon-3.png" alt="icon" />
                                             </div>
                                             <div className="training-content">
-                                                <h3 className="title"><a href="training-details.html">ENGLISH BOXING</a></h3>
+                                                <h3 className="title"><a href="training-details.html">ENGLISH ushu</a></h3>
                                                 <p>Transport or transportation is the movement of humans, animals and goods from one location.</p>
                                             </div>
                                             <div className="training-overlay bg-overlay-base bg_img" style={{ backgroundImage: "url('assets/images/training/training-1.png')" }}>
                                                 <div className="training-overlay-content">
-                                                    <h3 className="title"><a href="training-details.html">ENGLISH BOXING TRAINING</a></h3>
+                                                    <h3 className="title"><a href="training-details.html">ENGLISH ushu TRAINING</a></h3>
                                                     <div className="training-btn">
                                                         <a href="training-details.html" className="btn--base active">Training Details <i className="fas fa-arrow-right ml-2"></i></a>
                                                     </div>
@@ -58,12 +58,12 @@ export default function Training() {
                                                 <img src="assets/images/icon/icon-4.png" alt="icon" />
                                             </div>
                                             <div className="training-content">
-                                                <h3 className="title"><a href="training-details.html">PERSONAL BOXING</a></h3>
+                                                <h3 className="title"><a href="training-details.html">PERSONAL ushu</a></h3>
                                                 <p>Transport or transportation is the movement of humans, animals and goods from one location.</p>
                                             </div>
                                             <div className="training-overlay bg-overlay-base bg_img" style={{ backgroundImage: "url('assets/images/training/training-1.png')" }}>
                                                 <div className="training-overlay-content">
-                                                    <h3 className="title"><a href="training-details.html">PERSONAL BOXING TRAINING</a></h3>
+                                                    <h3 className="title"><a href="training-details.html">PERSONAL ushu TRAINING</a></h3>
                                                     <div className="training-btn">
                                                         <a href="training-details.html" className="btn--base active">Training Details <i className="fas fa-arrow-right ml-2"></i></a>
                                                     </div>
@@ -77,12 +77,12 @@ export default function Training() {
                                                 <img src="assets/images/icon/icon-5.png" alt="icon" />
                                             </div>
                                             <div className="training-content">
-                                                <h3 className="title"><a href="training-details.html">KICK BOXING</a></h3>
+                                                <h3 className="title"><a href="training-details.html">KICK ushu</a></h3>
                                                 <p>Transport or transportation is the movement of humans, animals and goods from one location.</p>
                                             </div>
                                             <div className="training-overlay bg-overlay-base bg_img" style={{ backgroundImage: "url('assets/images/training/training-1.png')" }}>
                                                 <div className="training-overlay-content">
-                                                    <h3 className="title"><a href="training-details.html">KICK BOXING TRAINING</a></h3>
+                                                    <h3 className="title"><a href="training-details.html">KICK ushu TRAINING</a></h3>
                                                     <div className="training-btn">
                                                         <a href="training-details.html" className="btn--base active">Training Details <i className="fas fa-arrow-right ml-2"></i></a>
                                                     </div>

@@ -57,7 +57,7 @@ export default function Trainer() {
                             </div>
                             <div className="trainer-content">
                                 <h3 className="title"><a href="master-details.html">David Sherman</a></h3>
-                                <span className="sub-title">Boxing Trainner</span>
+                                <span className="sub-title">ushu Trainner</span>
                             </div>
                         </div>
                     </div>

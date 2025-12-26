@@ -55,7 +55,7 @@ export default function Events() {
                                             <h3 className="badge-title"><span>22</span> <span className="month">feb</span></h3>
                                         </div>
                                     </div>
-                                    <h3 className="title"><Link href="/event-details">PBSC Thai Boxing Sparring Tournament</Link></h3>
+                                    <h3 className="title"><Link href="/event-details">PBSC Thai ushu Sparring Tournament</Link></h3>
                                     <p>Mark Magsayo upset Gary Russell Jr. by decision on Saturday night to claim the WBC featherweight title in Atlantic City.</p>
                                     <div className="event-btn">
                                         <Link href="/event-details">Read More <i className="fas fa-arrow-right ml-2"></i></Link>
@@ -136,7 +136,7 @@ export default function Events() {
                                             <h3 className="badge-title"><span>25</span> <span className="month">feb</span></h3>
                                         </div>
                                     </div>
-                                    <h3 className="title"><Link href="/event-details">Virtual Shadow Boxing Class With 3x Golden Glove Champion!</Link></h3>
+                                    <h3 className="title"><Link href="/event-details">Virtual Shadow ushu Class With 3x Golden Glove Champion!</Link></h3>
                                     <p>Mark Magsayo upset Gary Russell Jr. by decision on Saturday night to claim the WBC featherweight title in Atlantic City.</p>
                                     <div className="event-btn">
                                         <Link href="/event-details">Read More <i className="fas fa-arrow-right ml-2"></i></Link>
@@ -163,7 +163,7 @@ export default function Events() {
                                             <h3 className="badge-title"><span>26</span> <span className="month">feb</span></h3>
                                         </div>
                                     </div>
-                                    <h3 className="title"><Link href="/event-details">Adaptive Boxing $0-Sponsored by SCF Virtual Fitness</Link></h3>
+                                    <h3 className="title"><Link href="/event-details">Adaptive ushu $0-Sponsored by SCF Virtual Fitness</Link></h3>
                                     <p>Mark Magsayo upset Gary Russell Jr. by decision on Saturday night to claim the WBC featherweight title in Atlantic City.</p>
                                     <div className="event-btn">
                                         <Link href="/event-details">Read More <i className="fas fa-arrow-right ml-2"></i></Link>

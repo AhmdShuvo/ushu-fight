@@ -75,7 +75,7 @@ export default function Testimonial() {
                                             <div className="client-footer">
                                                 <div className="client-footer-left">
                                                     <h4 className="title"><a href="#0">Andru Smith</a></h4>
-                                                    <span className="sub-title">Boxing Trainer</span>
+                                                    <span className="sub-title">ushu Trainer</span>
                                                 </div>
                                                 <div className="client-footer-right">
                                                     <span className="ratings">

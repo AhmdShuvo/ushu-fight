@@ -23,23 +23,23 @@ export default function AboutPage() {
                                 <img src="/assets/images/about-2.png" alt="about" />
                                 <div className="about-overlay-content">
                                     <img src="/assets/images/icon/icon-22.png" alt="icon" />
-                                    <h4 className="title">NATIONAL <br /> BOXING <br /> AWARD</h4>
+                                    <h4 className="title">NATIONAL <br /> ushu <br /> AWARD</h4>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 mb-30">
                             <div className="about-content-area">
                                 <div className="section-header">
-                                    <h2 className="section-title">ABOUT <span>BOXING</span> SCHOOL</h2>
-                                    <p>USHU supports men, women, teens, and kids looking to pursue the incredible benefits of amateur boxing. Whether you’re interested in a challenging new approach to fitness or have Olympic aspirations.</p>
-                                    <p>Founded in 2003 by veteran boxing trainer/cutman, Russ Anber, Rival entered the marketplace with a promise to “reinvent the industry” by implementing innovations</p>
+                                    <h2 className="section-title">ABOUT <span>ushu</span> SCHOOL</h2>
+                                    <p>USHU supports men, women, teens, and kids looking to pursue the incredible benefits of amateur ushu. Whether you’re interested in a challenging new approach to fitness or have Olympic aspirations.</p>
+                                    <p>Founded in 2003 by veteran ushu trainer/cutman, Russ Anber, Rival entered the marketplace with a promise to “reinvent the industry” by implementing innovations</p>
                                 </div>
                                 <ul className="about-list">
                                     <li>Production or Trading of Good or Services for Sale</li>
                                     <li>Cost of supplies and equipment</li>
                                     <li>Change in the volume of expected sales</li>
                                     <li>From that initial modest order of $2,000</li>
-                                    <li>Everybody is, in one way or another, connected to boxing</li>
+                                    <li>Everybody is, in one way or another, connected to ushu</li>
                                 </ul>
                                 <div className="about-user-area">
                                     <div className="about-user-wrapper">
@@ -245,7 +245,7 @@ export default function AboutPage() {
                                                 <div className="client-footer">
                                                     <div className="client-footer-left">
                                                         <h4 className="title"><a href="#0">Andru Smith</a></h4>
-                                                        <span className="sub-title">Boxing Trainer</span>
+                                                        <span className="sub-title">ushu Trainer</span>
                                                     </div>
                                                     <div className="client-footer-right">
                                                         <span className="ratings">
@@ -275,7 +275,7 @@ export default function AboutPage() {
                                                 <div className="client-footer">
                                                     <div className="client-footer-left">
                                                         <h4 className="title"><a href="#0">Mick Tick</a></h4>
-                                                        <span className="sub-title">Boxing Trainer</span>
+                                                        <span className="sub-title">ushu Trainer</span>
                                                     </div>
                                                     <div className="client-footer-right">
                                                         <span className="ratings">

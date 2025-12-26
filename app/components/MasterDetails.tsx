@@ -9,8 +9,8 @@ export default function MasterDetails() {
     const [isOpen, setOpen] = useState(false);
 
     const skills = [
-        { title: "BOXING STANCE", percent: 88 },
-        { title: "BOXING FOOTWORK", percent: 90 },
+        { title: "ushu STANCE", percent: 88 },
+        { title: "ushu FOOTWORK", percent: 90 },
         { title: "PUNCHING", percent: 95 },
     ];
 
@@ -48,7 +48,7 @@ export default function MasterDetails() {
                                 </div>
                             </div>
                             <div className="trainer-about-body">
-                                <p>There were twelve rules in all, and they specified that fights should be "a fair stand-up boxing match" in a 24-foot-square or similar ring. Rounds were three minutes with one-minute rest intervals between rounds. Each fighter was given a ten-second count if he was knocked down, and wrestling was banned. The introduction of gloves of "fair-size" also changed the nature of the bouts. An average pair of boxing gloves resembles a bloated pair of mittens and are laced up around the wrists.</p>
+                                <p>There were twelve rules in all, and they specified that fights should be "a fair stand-up ushu match" in a 24-foot-square or similar ring. Rounds were three minutes with one-minute rest intervals between rounds. Each fighter was given a ten-second count if he was knocked down, and wrestling was banned. The introduction of gloves of "fair-size" also changed the nature of the bouts. An average pair of ushu gloves resembles a bloated pair of mittens and are laced up around the wrists.</p>
                             </div>
                             <div className="trainer-about-footer">
                                 <ul className="trainer-about-list">
