@@ -11,7 +11,7 @@ interface InnerBannerProps {
 export default function InnerBanner({ title, subtitle, bgImage, activePage }: InnerBannerProps) {
     return (
         <>
-            <section className="banner-section banner-section-two inner-banner-section bg-overlay-red bg_img" style={{ backgroundImage: `url('${bgImage}')` }}>
+            <section className="banner-section banner-section-two inner-banner-section bg-overlay-red bg_img"   data-background={bgImage} style={{ backgroundImage: `url('${bgImage}')` }}>
                 <div className="section-logo-text">
                     <span className="title">USHU</span>
                 </div>
