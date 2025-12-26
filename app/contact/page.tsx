@@ -100,11 +100,11 @@ export default function Contact() {
                                                 <img src="/assets/images/element/element-9.png" alt="element" />
                                             </div>
                                         </div>
-                                        <div className="banner-widget-middle">
+                                        {/* <div className="banner-widget-middle">
                                             <div className="banner-widget-content">
                                                 <p>Join over <span>4,000+</span> students</p>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                                 <div className="contact-social-area">

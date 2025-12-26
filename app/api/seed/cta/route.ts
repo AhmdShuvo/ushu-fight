@@ -8,7 +8,7 @@ export async function GET() {
     const initialCTA = {
         title: "JOIN THE LEGACY",
         subTitle: "#UNLEASH YOUR POWER",
-        description: "Whether you aim to compete, learn self-defense, or simply improve your health, Ushu Fighting School is your destination.",
+        description: "Whether you aim to compete, learn self-defense, or simply improve your health, Ushu Fighting Federation is your destination.",
         buttonText: "Start Training",
         buttonLink: "#contact",
         bgImage: "bg-3.png",

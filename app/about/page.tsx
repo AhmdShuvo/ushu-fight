@@ -30,7 +30,7 @@ export default function AboutPage() {
                         <div className="col-xl-6 col-lg-6 mb-30">
                             <div className="about-content-area">
                                 <div className="section-header">
-                                    <h2 className="section-title">ABOUT <span>ushu</span> SCHOOL</h2>
+                                    <h2 className="section-title">ABOUT <span>ushu</span> Federation</h2>
                                     <p>USHU supports men, women, teens, and kids looking to pursue the incredible benefits of amateur ushu. Whether you’re interested in a challenging new approach to fitness or have Olympic aspirations.</p>
                                     <p>Founded in 2003 by veteran ushu trainer/cutman, Russ Anber, Rival entered the marketplace with a promise to “reinvent the industry” by implementing innovations</p>
                                 </div>
@@ -67,7 +67,7 @@ export default function AboutPage() {
                                     </div>
                                     <div className="about-content">
                                         <h4 className="title">FREE FITNESS TRAINING</h4>
-                                        <p>We teach martial arts because we want to Unlike other martial arts schools.</p>
+                                        <p>We teach martial arts because we want to Unlike other martial arts Federations.</p>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@ export default function AboutPage() {
                                     </div>
                                     <div className="about-content">
                                         <h4 className="title">CARDIO AND STRENGTH</h4>
-                                        <p>We teach martial arts because we want to Unlike other martial arts schools.</p>
+                                        <p>We teach martial arts because we want to Unlike other martial arts Federations.</p>
                                     </div>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@ export default function AboutPage() {
                                     </div>
                                     <div className="about-content">
                                         <h4 className="title">REGIONAL ASSOCIATIONS</h4>
-                                        <p>We teach martial arts because we want to Unlike other martial arts schools.</p>
+                                        <p>We teach martial arts because we want to Unlike other martial arts Federations.</p>
                                     </div>
                                 </div>
                             </div>
@@ -180,7 +180,7 @@ export default function AboutPage() {
                             <div className="section-header-wrapper">
                                 <div className="section-header" data-aos="fade-right" data-aos-duration="1200">
                                     <h2 className="section-title">OUR <span>BOXER</span> TESTIMONIAL</h2>
-                                    <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                                    <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                                 </div>
                                 <div className="slider-nav-area" data-aos="fade-left" data-aos-duration="1200">
                                     <div className="slider-prev">
@@ -209,8 +209,8 @@ export default function AboutPage() {
                                                     </div>
                                                 </div>
                                                 <div className="client-content">
-                                                    <p>Fight School has specialized in martial arts since 1986 and has one of the most
-                                                        Fight School has specialized.</p>
+                                                    <p>Fight Federation has specialized in martial arts since 1986 and has one of the most
+                                                        Fight Federation has specialized.</p>
                                                 </div>
                                                 <div className="client-footer">
                                                     <div className="client-footer-left">

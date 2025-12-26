@@ -94,7 +94,7 @@ export default function EventDetails() {
                                                     </div>
                                                     <div className="about-content">
                                                         <h4 className="title">PHYSICAL ATTRACTIVENESS</h4>
-                                                        <p>We teach martial arts because we want to Unlike other martial arts schools.</p>
+                                                        <p>We teach martial arts because we want to Unlike other martial arts Federations.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -105,7 +105,7 @@ export default function EventDetails() {
                                                     </div>
                                                     <div className="about-content">
                                                         <h4 className="title">SPORTS PERFORMANCE</h4>
-                                                        <p>We teach martial arts because we want to Unlike other martial arts schools.</p>
+                                                        <p>We teach martial arts because we want to Unlike other martial arts Federations.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -116,7 +116,7 @@ export default function EventDetails() {
                                                     </div>
                                                     <div className="about-content">
                                                         <h4 className="title">GENERAL PHYSICAL HEALTH</h4>
-                                                        <p>We teach martial arts because we want to Unlike other martial arts schools.</p>
+                                                        <p>We teach martial arts because we want to Unlike other martial arts Federations.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -127,7 +127,7 @@ export default function EventDetails() {
                                                     </div>
                                                     <div className="about-content">
                                                         <h4 className="title">PLEASURE OF THE ACTIVITY</h4>
-                                                        <p>We teach martial arts because we want to Unlike other martial arts schools.</p>
+                                                        <p>We teach martial arts because we want to Unlike other martial arts Federations.</p>
                                                     </div>
                                                 </div>
                                             </div>

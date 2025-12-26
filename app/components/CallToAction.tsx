@@ -9,7 +9,7 @@ export default function CallToAction() {
                         <div className="call-to-action-content" data-aos="fade-up" data-aos-duration="1200">
                             <h2 className="title">JOIN THE CLUB</h2>
                             <h2 className="sub-title">#BE COME STRONGER</h2>
-                            <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                            <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                             <div className="call-to-action-btn">
                                 <a href="contact.html" className="btn--base">Join Now <i className="fas fa-arrow-right ml-2"></i></a>
                             </div>

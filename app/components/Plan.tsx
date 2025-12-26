@@ -8,7 +8,7 @@ export default function Plan() {
                     <div className="col-xl-6 col-lg-8 text-center">
                         <div className="section-header" data-aos="fade-up" data-aos-duration="1200">
                             <h2 className="section-title">OUR <span>MEMBERSHIP</span> PLAN</h2>
-                            <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                            <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                         </div>
                     </div>
                 </div>

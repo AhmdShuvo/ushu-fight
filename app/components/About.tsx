@@ -39,8 +39,8 @@ export default function About() {
                     <div className="col-xl-6 col-lg-12 mb-30">
                         <div className="about-content-area">
                             <div className="section-header white">
-                                <h2 className="section-title">ABOUT <span>ushu</span> SCHOOL</h2>
-                                <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                                <h2 className="section-title">ABOUT <span>ushu</span> Federation</h2>
+                                <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                             </div>
                             <div className="about-item-area">
                                 <div className="about-item mb-30">
@@ -49,7 +49,7 @@ export default function About() {
                                     </div>
                                     <div className="about-content">
                                         <h3 className="title">FREE FITNESS TRAINING</h3>
-                                        <p>We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts schools.</p>
+                                        <p>We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts Federations.</p>
                                     </div>
                                 </div>
                                 <div className="about-item mb-30">
@@ -58,7 +58,7 @@ export default function About() {
                                     </div>
                                     <div className="about-content">
                                         <h3 className="title">CARDIO AND STRENGTH</h3>
-                                        <p>We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts schools.</p>
+                                        <p>We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts Federations.</p>
                                     </div>
                                 </div>
                             </div>

@@ -18,7 +18,7 @@ export default function Subscribe() {
                             <div className="subscribe-content" data-aos="fade-left" data-aos-duration="1200">
                                 <div className="section-header white">
                                     <h2 className="section-title">SUBSCRIBE NOW</h2>
-                                    <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                                    <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                                 </div>
                                 <form className="subscribe-form">
                                     <label className="subscribe-icon"><i className="las la-envelope"></i></label>

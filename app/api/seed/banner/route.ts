@@ -18,7 +18,7 @@ export async function GET() {
         subTitle: "WELCOME TO USHU",
         title: "MASTER THE ART OF",
         innerTitle: "WUSHU FIGHTING",
-        description: "Embark on a journey of discipline and strength. Our Ushu school combines traditional Kung Fu wisdom with modern combat techniques. Discover your inner warrior and achieve physical and mental excellence.",
+        description: "Embark on a journey of discipline and strength. Our Ushu Federation combines traditional Kung Fu wisdom with modern combat techniques. Discover your inner warrior and achieve physical and mental excellence.",
         backgroundImage: "/assets/images/bg/bg-5.png",
         bannerThumb: "/assets/images/element/element-8.png",
         widgetText: "Join over",
@@ -39,7 +39,7 @@ export async function GET() {
     const currentAbout = {
         title: "ABOUT",
         spanTitle: "USHU",
-        description: "Our Ushu Fighting School has been cultivating martial arts excellence since 1986. We offer a holistic approach to Wushu, blending traditional forms with modern self-defense applications.",
+        description: "Our Ushu Fighting Federation has been cultivating martial arts excellence since 1986. We offer a holistic approach to Wushu, blending traditional forms with modern self-defense applications.",
         bgImage: "/assets/images/bg/bg-1.png",
         logoText: "USHU",
         mainImage: "/assets/images/about.png",
@@ -128,7 +128,7 @@ export async function GET() {
         {
             name: "Sarah Jenkins",
             role: "Wushu Student",
-            text: "Ushu School has completely changed my perspective on fitness and discipline. The masters are incredibly knowledgeable and supportive.",
+            text: "Ushu Federation has completely changed my perspective on fitness and discipline. The masters are incredibly knowledgeable and supportive.",
             image: "client-1.png",
             rating: 5,
             order: 1
@@ -136,7 +136,7 @@ export async function GET() {
         {
             name: "Mike Ross",
             role: "Sanda Practitioner",
-            text: "Learning Sanda here has balance and strength I never knew I had. Highly recommend this school to everyone.",
+            text: "Learning Sanda here has balance and strength I never knew I had. Highly recommend this Federation to everyone.",
             image: "client-2.png",
             rating: 5,
             order: 2
@@ -146,7 +146,7 @@ export async function GET() {
     const currentCTA = {
         title: "JOIN THE LEGACY",
         subTitle: "#UNLEASH YOUR POWER",
-        description: "Whether you aim to compete, learn self-defense, or simply improve your health, Ushu Fighting School is your destination.",
+        description: "Whether you aim to compete, learn self-defense, or simply improve your health, Ushu Fighting Federation is your destination.",
         buttonText: "Start Training",
         buttonLink: "#contact",
         bgImage: "bg-3.png",

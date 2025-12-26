@@ -9,7 +9,7 @@ export default function Testimonial() {
                         <div className="section-header-wrapper">
                             <div className="section-header white" data-aos="fade-right" data-aos-duration="1200">
                                 <h2 className="section-title">OUR <span>STUDENT'S</span> TESTIMONIAL</h2>
-                                <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                                <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                             </div>
                             <div className="slider-nav-area" data-aos="fade-left" data-aos-duration="1200">
                                 <div className="slider-prev">
@@ -38,8 +38,8 @@ export default function Testimonial() {
                                                 </div>
                                             </div>
                                             <div className="client-content">
-                                                <p>Fight School has specialized in martial arts since 1986 and has one of the most
-                                                    Fight School has specialized.</p>
+                                                <p>Fight Federation has specialized in martial arts since 1986 and has one of the most
+                                                    Fight Federation has specialized.</p>
                                             </div>
                                             <div className="client-footer">
                                                 <div className="client-footer-left">
@@ -69,8 +69,8 @@ export default function Testimonial() {
                                                 </div>
                                             </div>
                                             <div className="client-content">
-                                                <p>Fight School has specialized in martial arts since 1986 and has one of the most
-                                                    Fight School has specialized.</p>
+                                                <p>Fight Federation has specialized in martial arts since 1986 and has one of the most
+                                                    Fight Federation has specialized.</p>
                                             </div>
                                             <div className="client-footer">
                                                 <div className="client-footer-left">

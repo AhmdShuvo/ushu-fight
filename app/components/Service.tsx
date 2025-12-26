@@ -18,7 +18,7 @@ export default function Service() {
                                                 <img src="assets/images/service/service-1.png" alt="service" />
                                                 <div className="service-overlay">
                                                     <div className="service-overlay-content">
-                                                        <h3 className="title"><a href="training-details.html">PRESCHOOL MARTIAL ARTS</a></h3>
+                                                        <h3 className="title"><a href="training-details.html">PREFederation MARTIAL ARTS</a></h3>
                                                     </div>
                                                 </div>
                                             </div>
@@ -30,7 +30,7 @@ export default function Service() {
                                                 <img src="assets/images/service/service-2.png" alt="service" />
                                                 <div className="service-overlay">
                                                     <div className="service-overlay-content">
-                                                        <h3 className="title"><a href="training-details.html">PRESCHOOL MARTIAL ARTS</a></h3>
+                                                        <h3 className="title"><a href="training-details.html">PREFederation MARTIAL ARTS</a></h3>
                                                     </div>
                                                 </div>
                                             </div>
@@ -42,7 +42,7 @@ export default function Service() {
                                                 <img src="assets/images/service/service-3.png" alt="service" />
                                                 <div className="service-overlay">
                                                     <div className="service-overlay-content">
-                                                        <h3 className="title"><a href="training-details.html">PRESCHOOL MARTIAL ARTS</a></h3>
+                                                        <h3 className="title"><a href="training-details.html">PREFederation MARTIAL ARTS</a></h3>
                                                     </div>
                                                 </div>
                                             </div>

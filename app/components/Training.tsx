@@ -15,7 +15,7 @@ export default function Training() {
                         <div className="section-header-wrapper">
                             <div className="section-header">
                                 <h2 className="section-title">OUR <span>ushu</span> TRAINING</h2>
-                                <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                                <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                             </div>
                             <div className="slider-nav-area">
                                 <div className="slider-prev">

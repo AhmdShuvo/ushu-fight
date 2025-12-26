@@ -42,7 +42,7 @@ export default function GalleryPage() {
                         <div className="col-xl-4 col-lg-8 col-md-6 col-sm-8 text-center">
                             <div className="section-header" data-aos="fade-up" data-aos-duration="1200">
                                 <h2 className="section-title">SEE OUR <span>GALLERY</span></h2>
-                                <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                                <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                             </div>
                         </div>
                     </div>

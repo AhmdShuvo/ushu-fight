@@ -17,7 +17,7 @@ export default function Footer() {
                                     <span className="logo-text text-white font-weight-bold ml-2" style={{ fontSize: '24px' }}>USHU</span>
                                 </Link>
                             </div>
-                            <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation. Fight School has specialized in martial arts since 1986 and has one of the most</p>
+                            <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation. Fight Federation has specialized in martial arts since 1986 and has one of the most</p>
                             <ul className="footer-social">
                                 <li><a href="#0"><i className="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#0"><i className="fab fa-twitter"></i></a></li>

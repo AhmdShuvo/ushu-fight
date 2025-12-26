@@ -8,7 +8,7 @@ export default function Blog() {
                     <div className="col-xl-7 text-center">
                         <div className="section-header" data-aos="fade-up" data-aos-duration="1200">
                             <h2 className="section-title">LATEST <span>NEWS</span> FORM USHU</h2>
-                            <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                            <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ export default function Blog() {
                                         <span className="category"><a href="blog.html">ushu</a></span>
                                     </div>
                                     <h3 className="title"><a href="blog-details.html">THE UPCOMING WBC CHAMPION SHIPS 2024 IN FEB</a></h3>
-                                    <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                                    <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +46,7 @@ export default function Blog() {
                                         <span className="category"><a href="blog.html">Trendy</a></span>
                                     </div>
                                     <h3 className="title"><a href="blog-details.html">THE BEST BOXERS IN THEIR WEIGH TARGET CATEGORIES</a></h3>
-                                    <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                                    <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +64,7 @@ export default function Blog() {
                                         <span className="category"><a href="blog.html">ushu</a></span>
                                     </div>
                                     <h3 className="title"><a href="blog-details.html">EFFECTIVE STRATEGIES AND TIPS FROM THE BEST</a></h3>
-                                    <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                                    <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                                 </div>
                             </div>
                         </div>
