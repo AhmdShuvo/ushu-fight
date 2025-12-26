@@ -7,7 +7,7 @@ export default function Event() {
                 <div className="row justify-content-center">
                     <div className="col-xl-6 col-lg-8 text-center">
                         <div className="section-header" data-aos="fade-up" data-aos-duration="1200">
-                            <h2 className="section-title">OUR <span>KARATE</span> EVENTS</h2>
+                            <h2 className="section-title">OUR <span>ushu</span> EVENTS</h2>
                             <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                         </div>
                     </div>

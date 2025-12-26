@@ -61,7 +61,7 @@ export default function Header() {
                                     <ul className="navbar-nav main-menu ml-auto mr-auto">
                                         <li className={isActive('/')}><Link href="/">HOME</Link></li>
                                         <li className={isActive('/about')}><Link href="/about">ABOUT US</Link></li>
-                                        <li className={isActive('/training')}><Link href="/training">OUR EXPERT TRAINING</Link></li>
+                                        {/* <li className={isActive('/training')}><Link href="#training">OUR EXPERT TRAINING</Link></li> */}
                                         <li>
                                             <Link className="site-logo site-title d-none d-xl-flex align-items-center" href="/">
                                                 <img src="/assets/images/logo-removebg-preview.png" alt="site-logo" style={{ maxWidth: '100px' }} />

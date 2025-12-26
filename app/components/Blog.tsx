@@ -24,8 +24,8 @@ export default function Blog() {
                                 </div>
                                 <div className="blog-content">
                                     <div className="blog-post-meta">
-                                        <span className="user">By : Sword Joy</span>
-                                        <span className="category"><a href="blog.html">Karate</a></span>
+                                        <span className="user">By : ushu Joy</span>
+                                        <span className="category"><a href="blog.html">ushu</a></span>
                                     </div>
                                     <h3 className="title"><a href="blog-details.html">THE UPCOMING WBC CHAMPION SHIPS 2024 IN FEB</a></h3>
                                     <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
@@ -42,7 +42,7 @@ export default function Blog() {
                                 </div>
                                 <div className="blog-content">
                                     <div className="blog-post-meta">
-                                        <span className="user">By : Sword Joy</span>
+                                        <span className="user">By : ushu Joy</span>
                                         <span className="category"><a href="blog.html">Trendy</a></span>
                                     </div>
                                     <h3 className="title"><a href="blog-details.html">THE BEST BOXERS IN THEIR WEIGH TARGET CATEGORIES</a></h3>
@@ -60,7 +60,7 @@ export default function Blog() {
                                 </div>
                                 <div className="blog-content">
                                     <div className="blog-post-meta">
-                                        <span className="user">By : Sword Joy</span>
+                                        <span className="user">By : ushu Joy</span>
                                         <span className="category"><a href="blog.html">Boxing</a></span>
                                     </div>
                                     <h3 className="title"><a href="blog-details.html">EFFECTIVE STRATEGIES AND TIPS FROM THE BEST</a></h3>

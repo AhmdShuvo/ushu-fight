@@ -7,7 +7,7 @@ export default function Tutorial() {
                 <div className="row justify-content-center">
                     <div className="col-xl-4 col-lg-8 col-md-6 text-center">
                         <div className="section-header">
-                            <h2 className="section-title">OUR <span>KARATE</span> TUTORIAL</h2>
+                            <h2 className="section-title">OUR <span>ushu</span> TUTORIAL</h2>
                             <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                         </div>
                     </div>
