@@ -13,7 +13,7 @@ export default function Banner() {
                 <div className="swiper-wrapper">
                     <div className="swiper-slide">
                         <div className="banner-section banner-section-two">
-                            <div className="banner-bg bg-overlay-black bg_img" data-background="/assets/images/bg/bg-23.png" style={{ backgroundImage: "url('/assets/images/bg/bg-23.png')" }}></div>
+                            <div className="banner-bg bg-overlay-black bg_img" data-background="/assets/images/bg/bg-22.png" style={{ backgroundImage: "url('/assets/images/bg/bg-22.png')" }}></div>
                             <div className="container-fluid">
                                 <div className="row justify-content-center align-items-end mb-30-none">
                                     <div className="col-xl-12 col-lg-12 text-center mb-30">
