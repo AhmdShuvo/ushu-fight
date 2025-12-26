@@ -1,17 +1,21 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function Footer() {
     return (
         <footer id="contact" className="footer-section footer-section-two pt-120">
             <div className="footer-bg">
-                <img src="assets/images/bg/bg-4.png" alt="bg" />
+                <img src="/assets/images/bg/bg-4.png" alt="bg" />
             </div>
             <div className="container">
                 <div className="row mb-30-none">
                     <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
                         <div className="footer-widget">
                             <div className="footer-logo">
-                                <a className="site-logo site-title" href="index.html"><img src="assets/images/logo-white.png" alt="site-logo" /></a>
+                                <Link className="site-logo site-title d-flex align-items-center" href="/">
+                                    <img src="/assets/images/logo-removebg-preview.png" alt="site-logo" style={{ maxWidth: '100px' }} />
+                                    <span className="logo-text text-white font-weight-bold ml-2" style={{ fontSize: '24px' }}>USHU</span>
+                                </Link>
                             </div>
                             <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation. Fight School has specialized in martial arts since 1986 and has one of the most</p>
                             <ul className="footer-social">
@@ -50,25 +54,25 @@ export default function Footer() {
                             <div className="footer-gallery-area">
                                 <div className="footer-gallery-wrapper">
                                     <div className="footer-gallery-thumb">
-                                        <img src="assets/images/gallery/gallery-small-1.png" alt="gallery" />
+                                        <img src="/assets/images/gallery/gallery-small-1.png" alt="gallery" />
                                         <div className="footer-gallery-overlay">
                                             <a href="#0"><i className="fab fa-instagram"></i></a>
                                         </div>
                                     </div>
                                     <div className="footer-gallery-thumb">
-                                        <img src="assets/images/gallery/gallery-small-2.png" alt="gallery" />
+                                        <img src="/assets/images/gallery/gallery-small-2.png" alt="gallery" />
                                         <div className="footer-gallery-overlay">
                                             <a href="#0"><i className="fab fa-instagram"></i></a>
                                         </div>
                                     </div>
                                     <div className="footer-gallery-thumb">
-                                        <img src="assets/images/gallery/gallery-small-2.png" alt="gallery" />
+                                        <img src="/assets/images/gallery/gallery-small-2.png" alt="gallery" />
                                         <div className="footer-gallery-overlay">
                                             <a href="#0"><i className="fab fa-instagram"></i></a>
                                         </div>
                                     </div>
                                     <div className="footer-gallery-thumb">
-                                        <img src="assets/images/gallery/gallery-small-3.png" alt="gallery" />
+                                        <img src="/assets/images/gallery/gallery-small-3.png" alt="gallery" />
                                         <div className="footer-gallery-overlay">
                                             <a href="#0"><i className="fab fa-instagram"></i></a>
                                         </div>
