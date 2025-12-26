@@ -1,11 +1,15 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useSession } from 'next-auth/react';
+import { usePathname } from 'next/navigation';
 
 export default function Header() {
+    const { data: session } = useSession();
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [activeSubMenus, setActiveSubMenus] = useState<Record<string, boolean>>({});
     const [isSticky, setIsSticky] = useState(false);
+    const pathname = usePathname();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -21,90 +25,53 @@ export default function Header() {
 
     const toggleSubMenu = (e: React.MouseEvent, id: string) => {
         e.preventDefault();
-        // Only toggle on mobile or if needed. On desktop, hover usually handles it via CSS.
-        // But if strictly following HTML structure and JS:
         setActiveSubMenus((prev) => ({
             ...prev,
             [id]: !prev[id]
         }));
     };
 
+    const isActive = (path: string) => pathname === path ? 'active' : '';
+
+    const getHeaderClass = () => {
+        let className = "header-section header-section-two";
+        if (pathname === '/contact') {
+            className += " header-section-three";
+        }
+        if (isSticky) {
+            className += " animated fadeInDown header-fixed";
+        }
+        return className;
+    };
+
     return (
-        <header className={`header-section ${isSticky ? 'animated fadeInDown header-fixed' : ''}`}>
+        <header className={getHeaderClass()}>
             <div className="header">
                 <div className="header-bottom-area">
                     <div className="container-fluid">
                         <div className="header-menu-content">
                             <nav className="navbar navbar-expand-xl p-0">
-                                <Link className="site-logo site-title d-flex align-items-center" href="/">
-                                    <img src="/assets/images/logo-removebg-preview.png" alt="site-logo" style={{ maxHeight: '50px' }} />
-                                    <span className="ml-2 font-weight-bold ml-2" style={{ color: '#000', fontSize: '24px', fontWeight: 'bold' }}>USHU</span>
+                                <Link className="site-logo site-title d-block d-xl-none" href="/">
+                                    <img src="/assets/images/logo-removebg-preview.png" alt="site-logo" />
                                 </Link>
-                                <button
-                                    className="navbar-toggler ml-auto"
-                                    type="button"
-                                    onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                                >
+                                <button className="navbar-toggler ml-auto" type="button" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span className="fas fa-bars"></span>
                                 </button>
                                 <div className={`collapse navbar-collapse ${isMobileMenuOpen ? 'show' : ''}`} id="navbarSupportedContent">
-                                    <ul className="navbar-nav main-menu mr-auto">
-                                        <li className={`menu_has_children ${activeSubMenus['menu'] ? 'show' : ''}`}>
-                                            <a href="#" onClick={(e) => toggleSubMenu(e, 'menu')}>
-                                                <div className="toggle-menu">
-                                                    <div className="toggle-wrapper">
-                                                        <div className="toggle-bar">
-                                                            <div className="toggle">
-                                                                <div className="element section--bg"></div>
-                                                            </div>
-                                                            <div className="toggle">
-                                                                <div className="element"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="toggle-bar">
-                                                            <div className="toggle">
-                                                                <div className="element"></div>
-                                                            </div>
-                                                            <div className="toggle">
-                                                                <div className="element"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    MENU
-                                                </div>
-                                            </a>
-                                            <ul className="sub-menu" style={{ display: activeSubMenus['menu'] ? 'block' : '' }}>
-                                                <li><Link href="#home">HOME</Link></li>
-                                                <li><Link href="#about">ABOUT US</Link></li>
-                                                <li><Link href="#training">TRAINING</Link></li>
-                                                <li><Link href="#trainer">MASTERS</Link></li>
-                                                <li><Link href="#schedule">SCHEDULE</Link></li>
-                                                <li><Link href="#feature">FEATURES</Link></li>
-                                                <li><Link href="#blog">NEWS</Link></li>
-                                                <li><Link href="#contact">CONTACT US</Link></li>
-                                            </ul>
+                                    <ul className="navbar-nav main-menu ml-auto mr-auto">
+                                        <li className={isActive('/')}><Link href="/">HOME</Link></li>
+                                        <li className={isActive('/about')}><Link href="/about">ABOUT US</Link></li>
+                                        <li className={isActive('/training')}><Link href="/training">OUR EXPERT TRAINING</Link></li>
+                                        <li>
+                                            <Link className="site-logo site-title d-none d-xl-flex align-items-center" href="/">
+                                                <img src="/assets/images/logo-removebg-preview.png" alt="site-logo" style={{ maxWidth: '100px' }} />
+                                                <span className="logo-text text-white font-weight-bold ml-2" style={{ fontSize: '24px' }}>USHU</span>
+                                            </Link>
                                         </li>
-                                        <li><Link href="#training">TRAINING</Link></li>
+                                        <li className={pathname.startsWith('/events') || pathname.startsWith('/event-details') ? 'active' : ''}><Link href="/events">EVENTS</Link></li>
+                                        <li className={isActive('/gallery')}><Link href="/gallery">GALLERY</Link></li>
+                                        <li className={isActive('/contact')}><Link href="/contact">CONTACT US</Link></li>
                                     </ul>
-                                    <div className="header-right">
-                                        <div className="header-links-area">
-                                            <ul className="header-links">
-                                                <li>
-                                                    <h5 className="title">Call Us Free</h5>
-                                                    <span className="sub-title"><a href="tel:+65325936523">+65 3259 36523</a></span>
-                                                </li>
-                                                <li>
-                                                    <h5 className="title">Address</h5>
-                                                    <span className="sub-title">123, New Lenox Chicago, IL 60606</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="header-action-area">
-                                            <div className="header-action">
-                                                <Link href="#contact" className="btn--base">GET IN TOUCH <i className="fas fa-arrow-right ml-2"></i></Link>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </nav>
                         </div>

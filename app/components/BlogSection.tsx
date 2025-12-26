@@ -1,12 +1,21 @@
-import React from 'react';
+"use client";
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function BlogSection() {
-    const blogs = [
-        { title: "THE PHILOSOPHY OF WUSHU TRAINING", date: "Feb 10, 2024", author: "Master Li", category: "Philosophy", img: "blog-1.png" },
-        { title: "SANDA VS TRADITIONAL KUNG FU", date: "Feb 10, 2024", author: "Coach Zhang", category: "Combat", img: "blog-2.png" },
-        { title: "BENEFITS OF TAI CHI FOR HEALTH", date: "Feb 10, 2024", author: "Dr. Chen", category: "Health", img: "blog-3.png" },
-    ];
+    const [blogs, setBlogs] = useState<any[]>([]);
+
+    useEffect(() => {
+        fetch('/api/news')
+            .then(res => res.json())
+            .then(data => {
+                if (data.news) {
+                    setBlogs(data.news);
+                }
+            });
+    }, []);
+
+    if (blogs.length === 0) return null;
 
     return (
         <section id="blog" className="blog-section ptb-120">
@@ -27,6 +36,7 @@ export default function BlogSection() {
                 </div>
                 <div className="row justify-content-center mb-30-none">
                     {blogs.map((blog, index) => (
+                        // console.log(blog),
                         <div key={index} className="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                             <div className="blog-item" data-aos="zoom-in" data-aos-duration="1200">
                                 <div className="blog-thumb">
@@ -40,7 +50,7 @@ export default function BlogSection() {
                                         <span className="user">By : {blog.author}</span>
                                         <span className="category"><Link href="/blog">{blog.category}</Link></span>
                                     </div>
-                                    <h3 className="title"><Link href="/blog-details">{blog.title}</Link></h3>
+                                    <h3 className="title"> <Link href={`/blog-details/${blog.slug || blog._id}`}>{blog.title}</Link></h3>
                                 </div>
                             </div>
                         </div>

@@ -1,6 +1,32 @@
-import React from 'react';
+"use client";
+import React, { useState, useEffect } from 'react';
 
 export default function Schedule() {
+    const [schedule, setSchedule] = useState<any[]>([]);
+
+    useEffect(() => {
+        fetch('/api/schedule')
+            .then(res => res.json())
+            .then(data => {
+                if (data.schedule) {
+                    setSchedule(data.schedule);
+                }
+            });
+    }, []);
+
+    const renderSlot = (slot: any) => {
+        if (slot.isBlank) {
+            return <td className="blank-data"><div className="dot"></div></td>;
+        }
+        return (
+            <td className={slot.isActive ? "active" : ""}>
+                {slot.text} <span>{slot.subText}</span>
+            </td>
+        );
+    };
+
+    if (schedule.length === 0) return null;
+
     return (
         <section id="schedule" className="schedule-section ptb-120">
             <div className="container">
@@ -27,62 +53,16 @@ export default function Schedule() {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>Saturday</td>
-                                        <td>Taolu Basics <span>10 am - 11 am</span></td>
-                                        <td>Tai Chi <span>12 pm - 1 pm</span></td>
-                                        <td className="blank-data"></td>
-                                        <td>Sanda Sparring <span>05 pm - 06 pm</span></td>
-                                        <td>Meditation <span>07 pm - 08 pm</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Sunday</td>
-                                        <td className="blank-data"><div className="dot"></div></td>
-                                        <td>Shaolin Kung Fu <span>12 pm - 1 pm</span></td>
-                                        <td>Weaponry <span>02 pm - 03 pm</span></td>
-                                        <td className="blank-data"></td>
-                                        <td><div className="dot">Flexibility <span>07 pm - 08 pm</span></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Monday</td>
-                                        <td>Conditioning <span>10 am - 11 am</span></td>
-                                        <td className="blank-data"></td>
-                                        <td>Sanda Drills <span>02 pm - 03 pm</span></td>
-                                        <td>Forms Review <span>05 pm - 06 pm</span></td>
-                                        <td className="blank-data"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Tuesday</td>
-                                        <td className="blank-data"></td>
-                                        <td className="active">Private Session <span>12 pm - 1 pm</span></td>
-                                        <td className="blank-data"></td>
-                                        <td>Advanced Forms <span>05 pm - 06 pm</span></td>
-                                        <td className="blank-data"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Wednesday</td>
-                                        <td>Qi Gong <span>10 am - 11 am</span></td>
-                                        <td>Self Defense <span>12 pm - 1 pm</span></td>
-                                        <td>Kids Wushu <span>02 pm - 03 pm</span></td>
-                                        <td className="blank-data"></td>
-                                        <td>Open Mat <span>07 pm - 08 pm</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Thursday</td>
-                                        <td>Power Training <span>10 am - 11 am</span></td>
-                                        <td className="blank-data"></td>
-                                        <td>Partner Drills <span>02 pm - 03 pm</span></td>
-                                        <td className="blank-data"></td>
-                                        <td>Sparring Night <span>07 pm - 09 pm</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Friday</td>
-                                        <td className="blank-data"><div className="dot"></div></td>
-                                        <td>Demonstration <span>12 pm - 1 pm</span></td>
-                                        <td className="blank-data"></td>
-                                        <td>Review <span>05 pm - 06 pm</span></td>
-                                        <td className="blank-data"><div className="dot"></div></td>
-                                    </tr>
+                                    {schedule.map((item, index) => (
+                                        <tr key={index}>
+                                            <td>{item.day}</td>
+                                            {renderSlot(item.col10am)}
+                                            {renderSlot(item.col12pm)}
+                                            {renderSlot(item.col02pm)}
+                                            {renderSlot(item.col05pm)}
+                                            {renderSlot(item.col07pm)}
+                                        </tr>
+                                    ))}
                                 </tbody>
                             </table>
                         </div>

@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { Kanit, Roboto } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import AosInit from "./components/AosInit";
+import { Providers } from "./components/Providers";
 
 const kanit = Kanit({
   variable: "--font-kanit",
@@ -24,6 +26,8 @@ export const metadata: Metadata = {
   title: "Ushu - Wushu & Kung Fu Fighting School",
   description: "Master the art of Wushu and Kung Fu at Ushu Fighting School. Join us for traditional and modern martial arts training.",
 };
+
+import { Toaster } from "react-hot-toast";
 
 export default function RootLayout({
   children,
@@ -47,15 +51,30 @@ export default function RootLayout({
         <link rel="stylesheet" href="/assets/css/style.css" />
       </head>
       <body className={`${kanit.variable} ${roboto.variable}`}>
-        <AosInit />
-        <Header />
-        {children}
-        <Footer />
-        <ScrollToTop />
-        <script src="/assets/js/jquery.js"></script>
-        <script src="/assets/js/bootstrap.min.js"></script>
-        <script src="/assets/js/lightcase.js"></script>
-        <script src="/assets/js/jquery.nice-select.js"></script>
+        <Providers>
+          <Toaster position="top-center" reverseOrder={false} />
+          <AosInit />
+          <Header />
+          {children}
+          <Footer />
+          <ScrollToTop />
+        </Providers>
+        <Script src="/assets/js/jquery.js" strategy="beforeInteractive" />
+        <Script src="/assets/js/bootstrap.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/lightcase.js" strategy="afterInteractive" />
+        <Script src="/assets/js/swiper.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/odometer.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/viewport.jquery.js" strategy="afterInteractive" />
+        <Script src="/assets/js/circle-progress.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/aos.js" strategy="afterInteractive" />
+        <Script src="/assets/js/jquery.nice-select.js" strategy="afterInteractive" />
+        <Script src="/assets/js/jquery.paroller.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/flipclock.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/jquery.countdown.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/jquery.easypiechart.js" strategy="afterInteractive" />
+        <Script src="/assets/js/isotope.pkgd.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/preloader.js" strategy="afterInteractive" />
+        <Script src="/assets/js/main.js" strategy="lazyOnload" />
       </body>
     </html>
   );

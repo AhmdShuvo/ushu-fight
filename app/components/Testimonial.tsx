@@ -1,23 +1,17 @@
-"use client";
 import React from 'react';
-import Link from 'next/link';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Navigation } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
 
 export default function Testimonial() {
     return (
-        <section id="testimonial" className="client-section ptb-120">
+        <section className="client-section client-section-two ptb-120 bg-overlay-black bg_img" data-background="/assets/images/bg/bg-7.png" style={{ backgroundImage: "url('/assets/images/bg/bg-7.png')" }}>
             <div className="container">
                 <div className="row">
                     <div className="col-xl-12">
                         <div className="section-header-wrapper">
-                            <div className="section-header">
-                                <h2 className="section-title">WARRIOR <span>TESTIMONIALS</span></h2>
-                                <p>Hear from our students who have transformed their lives through the discipline and power of Ushu training.</p>
+                            <div className="section-header white" data-aos="fade-right" data-aos-duration="1200">
+                                <h2 className="section-title">OUR <span>STUDENT'S</span> TESTIMONIAL</h2>
+                                <p>Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                             </div>
-                            <div className="slider-nav-area">
+                            <div className="slider-nav-area" data-aos="fade-left" data-aos-duration="1200">
                                 <div className="slider-prev">
                                     <i className="fas fa-chevron-left"></i>
                                 </div>
@@ -31,51 +25,26 @@ export default function Testimonial() {
                 <div className="client-area">
                     <div className="row justify-content-center align-items-end mb-30-none">
                         <div className="col-xl-8 col-lg-8 col-md-6 mb-30">
-                            <div className="client-slider-area">
-                                <Swiper
-                                    modules={[Autoplay, Navigation]}
-                                    slidesPerView={2}
-                                    spaceBetween={30}
-                                    loop={true}
-                                    navigation={{
-                                        nextEl: '.slider-next',
-                                        prevEl: '.slider-prev',
-                                    }}
-                                    autoplay={{
-                                        delay: 4000,
-                                        disableOnInteraction: false,
-                                    }}
-                                    speed={1000}
-                                    breakpoints={{
-                                        991: {
-                                            slidesPerView: 1,
-                                        },
-                                        767: {
-                                            slidesPerView: 1,
-                                        },
-                                        575: {
-                                            slidesPerView: 1,
-                                        },
-                                    }}
-                                    className="client-slider"
-                                >
-                                    <SwiperSlide>
+                            <div className="client-slider" data-aos="fade-right" data-aos-duration="1200">
+                                <div className="swiper-wrapper">
+                                    <div className="swiper-slide">
                                         <div className="client-item">
                                             <div className="client-header">
                                                 <div className="client-quote">
-                                                    <img src="/assets/images/client/quote.png" alt="client" />
+                                                    <img src="assets/images/client/quote.png" alt="client" />
                                                 </div>
                                                 <div className="client-thumb">
-                                                    <img src="/assets/images/client/client-1.png" alt="client" />
+                                                    <img src="assets/images/client/client-1.png" alt="client" />
                                                 </div>
                                             </div>
                                             <div className="client-content">
-                                                <p>Ushu School has completely changed my perspective on fitness and discipline. The masters are incredibly knowledgeable and supportive.</p>
+                                                <p>Fight School has specialized in martial arts since 1986 and has one of the most
+                                                    Fight School has specialized.</p>
                                             </div>
                                             <div className="client-footer">
                                                 <div className="client-footer-left">
-                                                    <h4 className="title"><a href="#0">Sarah Jenkins</a></h4>
-                                                    <span className="sub-title">Wushu Student</span>
+                                                    <h4 className="title"><a href="#0">Randall Schwartz</a></h4>
+                                                    <span className="sub-title">Women's Trainner</span>
                                                 </div>
                                                 <div className="client-footer-right">
                                                     <span className="ratings">
@@ -88,24 +57,25 @@ export default function Testimonial() {
                                                 </div>
                                             </div>
                                         </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
+                                    </div>
+                                    <div className="swiper-slide">
                                         <div className="client-item">
                                             <div className="client-header">
                                                 <div className="client-quote">
-                                                    <img src="/assets/images/client/quote.png" alt="client" />
+                                                    <img src="assets/images/client/quote.png" alt="client" />
                                                 </div>
                                                 <div className="client-thumb">
-                                                    <img src="/assets/images/client/client-2.png" alt="client" />
+                                                    <img src="assets/images/client/client-2.png" alt="client" />
                                                 </div>
                                             </div>
                                             <div className="client-content">
-                                                <p>Learning Sanda here has given me confidence and strength I never knew I had. Highly recommend this school to everyone.</p>
+                                                <p>Fight School has specialized in martial arts since 1986 and has one of the most
+                                                    Fight School has specialized.</p>
                                             </div>
                                             <div className="client-footer">
                                                 <div className="client-footer-left">
-                                                    <h4 className="title"><a href="#0">Mike Ross</a></h4>
-                                                    <span className="sub-title">Sanda Practitioner</span>
+                                                    <h4 className="title"><a href="#0">Andru Smith</a></h4>
+                                                    <span className="sub-title">Boxing Trainer</span>
                                                 </div>
                                                 <div className="client-footer-right">
                                                     <span className="ratings">
@@ -118,13 +88,13 @@ export default function Testimonial() {
                                                 </div>
                                             </div>
                                         </div>
-                                    </SwiperSlide>
-                                </Swiper>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
-                            <div className="client-right-thumb">
-                                <img src="/assets/images/client/client-big.png" alt="client" />
+                            <div className="client-right-thumb" data-aos="fade-left" data-aos-duration="1200">
+                                <img src="assets/images/client/client-big-2.png" alt="client" />
                                 <div className="client-thumb-overlay">
                                     <h4 className="title">MASTER UPPER CUT</h4>
                                 </div>
