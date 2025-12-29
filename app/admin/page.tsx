@@ -23,7 +23,7 @@ export default function AdminDashboard() {
         <div className="p-5" style={{ background: '#f8f9fa', color: '#212529', minHeight: '100vh' }}>
             <div className="container">
                 <div className="d-flex justify-content-between align-items-center mb-5">
-                    <h1 className="text-dark m-0">Ushu Console</h1>
+                    <h1 className="text-dark m-0">Wushu Console</h1>
                     <div className="d-flex align-items-center">
                         <span className="me-3 text-muted">Signed in as <strong>{session?.user?.name}</strong> ({session?.user?.role})</span>
                         <button onClick={() => signOut()} className="btn btn-dark">Sign Out</button>

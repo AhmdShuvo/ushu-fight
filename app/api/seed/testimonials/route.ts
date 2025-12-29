@@ -9,7 +9,7 @@ export async function GET() {
         {
             name: "Sarah Jenkins",
             role: "Wushu Student",
-            text: "Ushu Federation has completely changed my perspective on fitness and discipline. The masters are incredibly knowledgeable and supportive.",
+            text: "Wushu Federation has completely changed my perspective on fitness and discipline. The masters are incredibly knowledgeable and supportive.",
             image: "client-1.png",
             rating: 5,
             order: 1

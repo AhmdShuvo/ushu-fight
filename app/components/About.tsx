@@ -5,7 +5,7 @@ export default function About() {
     return (
         <section id="about" className="about-section pt-120 bg-overlay-black bg_img" style={{ backgroundImage: "url('/assets/images/bg/bg-1.png')" }}>
             <div className="section-logo-text">
-                <span className="title">USHU</span>
+                <span className="title">Wushu</span>
             </div>
             <div className="container">
                 <div className="row justify-content-center mb-30-none">
@@ -39,8 +39,8 @@ export default function About() {
                     <div className="col-xl-6 col-lg-12 mb-30">
                         <div className="about-content-area">
                             <div className="section-header white">
-                                <h2 className="section-title">ABOUT <span>ushu</span> Federation</h2>
-                                <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                                <h2 className="section-title">ABOUT <span>Wushu</span> Federation</h2>
+                                <p>BWUF was founded in 2007 as "Bangladesh Wushu Association" and has been declared as "Bangladesh Wushu Federation" by National Sports Council-Bangladesh in 2018. It has an established history of working to promote and develop Wushu in Bangladesh and supporting the IWUF Worldwide.</p>
                             </div>
                             <div className="about-item-area">
                                 <div className="about-item mb-30">
@@ -48,8 +48,8 @@ export default function About() {
                                         <img src="/assets/images/icon/icon-1.png" alt="icon" />
                                     </div>
                                     <div className="about-content">
-                                        <h3 className="title">FREE FITNESS TRAINING</h3>
-                                        <p>We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts Federations.</p>
+                                        <h3 className="title">OUR VISION</h3>
+                                        <p>Promote the development of wushu in all over Bangladesh as well as worldwide.  Sport, recreation, health, and art form of wushu is a widely recognised and popular among children, young and old.</p>
                                     </div>
                                 </div>
                                 <div className="about-item mb-30">
@@ -57,8 +57,8 @@ export default function About() {
                                         <img src="/assets/images/icon/icon-2.png" alt="icon" />
                                     </div>
                                     <div className="about-content">
-                                        <h3 className="title">CARDIO AND STRENGTH</h3>
-                                        <p>We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts Federations.</p>
+                                        <h3 className="title">OUR MISSION</h3>
+                                        <p>Our mission is to Increase wushu spirit and values and promote awareness, interest, participation and success at all levels,therefore enriching the health and well-being of all Bangladeshi's.</p>
                                     </div>
                                 </div>
                             </div>

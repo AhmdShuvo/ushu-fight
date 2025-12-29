@@ -29,7 +29,7 @@ export default function BlogSection() {
                 <div className="row justify-content-center">
                     <div className="col-xl-7 col-lg-8 text-center">
                         <div className="section-header" data-aos="fade-up" data-aos-duration="1200">
-                            <h2 className="section-title">LATEST <span>NEWS</span> FROM USHU</h2>
+                            <h2 className="section-title">LATEST <span>NEWS</span> FROM Wushu</h2>
                             <p>Stay updated with the latest insights, training tips, and news from our dojo.</p>
                         </div>
                     </div>

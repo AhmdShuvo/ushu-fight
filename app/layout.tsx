@@ -23,8 +23,8 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Ushu - Wushu & Kung Fu Fighting Federation",
-  description: "Master the art of Wushu and Kung Fu at Ushu Fighting Federation. Join us for traditional and modern martial arts training.",
+  title: "Wushu - Wushu & Kung Fu Fighting Federation",
+  description: "Master the art of Wushu and Kung Fu at Wushu Fighting Federation. Join us for traditional and modern martial arts training.",
 };
 
 import { Toaster } from "react-hot-toast";

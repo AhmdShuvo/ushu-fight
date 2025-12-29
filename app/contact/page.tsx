@@ -35,25 +35,12 @@ export default function Contact() {
                         <div className="col-xl-10 col-lg-12 text-center">
                             <div className="section-header" data-aos="fade-up" data-aos-duration="1200">
                                 <h2 className="section-title">Ready to Get More <span>Information</span></h2>
-                                <p>There were twelve rules in all, and they specified that fights should be "a fair stand-up ushu match" in a 24-foot-square or similar ring. Rounds were three minutes with one-minute rest.</p>
+                                <p>There were twelve rules in all, and they specified that fights should be "a fair stand-up Wushu match" in a 24-foot-square or similar ring. Rounds were three minutes with one-minute rest.</p>
                             </div>
                         </div>
                     </div>
                     <div className="row justify-content-center mb-30-none">
-                        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
-                            <div className="contact-item">
-                                <div className="contact-icon-area">
-                                    <div className="contact-icon">
-                                        <img src="/assets/images/icon/icon-64.png" alt="icon" />
-                                    </div>
-                                </div>
-                                <div className="contact-content">
-                                    <h4 className="title">OFFICE ADRESS</h4>
-                                    <p>350 5th Ave, New York, NY 10118350 <br /> <a href="https://www.google.com/maps/@23.7745978,90.4219535,15z" target="_blank">view map</a> </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
+                        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
                             <div className="contact-item">
                                 <div className="contact-icon-area">
                                     <div className="contact-icon">
@@ -61,21 +48,53 @@ export default function Contact() {
                                     </div>
                                 </div>
                                 <div className="contact-content">
-                                    <h4 className="title">TELEPHONE NUMBER</h4>
-                                    <p>+1 (800)-123-4567 <br /> <a href="tel:11234567">call now</a> </p>
+                                    <h4 className="title">OFFICE ADRESS</h4>
+                                    <p>Room: 32, 2nd Floor
+                                        Bangabandhu National Stadium
+                                        Puraana Paltan, Dhaka-1000
+                                        Bangladesh <br /> <a href="https://maps.app.goo.gl/kJHSD23asEeUcN7b8" target="_blank">view map</a> </p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
+                        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
                             <div className="contact-item">
                                 <div className="contact-icon-area">
                                     <div className="contact-icon">
                                         <img src="/assets/images/icon/icon-66.png" alt="icon" />
                                     </div>
+
+                                </div>
+                                <div className="contact-content">
+                                    <h4 className="title">TELEPHONE NUMBER</h4>
+                                    <p>+88 02 9565503 <br /> <a href="tel:11234567">call now</a> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                            <div className="contact-item">
+                                <div className="contact-icon-area">
+                                    <div className="contact-icon">
+                                        <img src="/assets/images/icon/icon-66.png" alt="icon" />
+                                    </div>
+
+                                </div>
+                                <div className="contact-content">
+                                    <h4 className="title">MOBILE NUMBER</h4>
+                                    <p>+88 01972182990 <br /> <a href="tel:11234567">call now</a> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                            <div className="contact-item">
+                                <div className="contact-icon-area">
+
+                                    <div className="contact-icon">
+                                        <img src="/assets/images/icon/icon-64.png" alt="icon" />
+                                    </div>
                                 </div>
                                 <div className="contact-content">
                                     <h4 className="title">SEND MAIL</h4>
-                                    <p>example@email.com <br /> <a href="mailto:">send now</a> </p>
+                                    <p>wushubd@gmail.com<br /> <a href="mailto:">send now</a> </p>
                                 </div>
                             </div>
                         </div>
@@ -91,7 +110,7 @@ export default function Contact() {
                                 <div className="section-header">
                                     <h2 className="section-title">Any Question? Feel
                                         Free to <span>Contact</span> with Us!</h2>
-                                    <p>If you have any questions or need more information, please use the form below to send us a message There were twelve rules in all, and they specified that fights should be "a fair stand-up ushu match" in a 24-foot-square or similar ring. </p>
+                                    <p>If you have any questions or need more information, please use the form below to send us a message There were twelve rules in all, and they specified that fights should be "a fair stand-up Wushu match" in a 24-foot-square or similar ring. </p>
                                 </div>
                                 <div className="banner-widget">
                                     <div className="banner-widget-wrapper">
@@ -150,7 +169,7 @@ export default function Contact() {
                     <div className="row justify-content-center mb-5-none">
                         <div className="col-xl-12">
                             <div className="map-area">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.1899657893728!2d90.42380431666383!3d23.779746865573756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7499f257eab%3A0xe6b4b9eacea70f4a!2sManama+Tower!5e0!3m2!1sen!2sbd!4v1561542597668!5m2!1sen!2sbd" style={{ border: 0 }} allowFullScreen></iframe>
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.5491012173534!2d90.41058117437461!3d23.727790789645827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9a18d0b0931%3A0xdab240983bb02610!2sNational%20Stadium%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1767015612952!5m2!1sen!2sbd" width="600" height="450" style={{ border: 0 }} allowFullScreen></iframe>
                             </div>
                         </div>
                     </div>

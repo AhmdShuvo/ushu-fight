@@ -20,7 +20,7 @@ export default function Breadcrumb({ title, currentPage, bgImage = "bg-12.png" }
         <>
             <section className="banner-section banner-section-two inner-banner-section bg-overlay-red bg_img" data-background={`/assets/images/bg/${bgImage}`} style={{ backgroundImage: `url('/assets/images/bg/${bgImage}')` }}>
                 <div className="section-logo-text">
-                    <span className="title">USHU</span>
+                    <span className="title">Wushu</span>
                 </div>
                 <div className="container-fluid">
                     <div className="row justify-content-center align-items-end mb-30-none">

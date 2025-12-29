@@ -65,7 +65,7 @@ export default function Header() {
                                         <li>
                                             <Link className="site-logo site-title d-none d-xl-flex align-items-center" href="/">
                                                 <img src="/assets/images/logo-removebg-preview.png" alt="site-logo" style={{ maxWidth: '100px' }} />
-                                                <span className="logo-text text-white font-weight-bold ml-2" style={{ fontSize: '24px' }}>USHU</span>
+                                                
                                             </Link>
                                         </li>
                                         <li className={pathname.startsWith('/events') || pathname.startsWith('/event-details') ? 'active' : ''}><Link href="/events">EVENTS</Link></li>

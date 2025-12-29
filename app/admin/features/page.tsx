@@ -61,7 +61,7 @@ export default function FeaturesAdmin() {
     return (
         <div className="p-5" style={{ background: '#f8f9fa', color: '#212529', minHeight: '100vh' }}>
             <div className="d-flex justify-content-between align-items-center mb-4">
-                <h1 className="text-dark">Manage "Why Choose Ushu" Features</h1>
+                <h1 className="text-dark">Manage "Why Choose Wushu" Features</h1>
                 <Link href="/admin" className="btn btn-outline-secondary">Back to Dashboard</Link>
             </div>
 

@@ -72,7 +72,7 @@ export default async function BlogDetailsPage({ params }: { params: Promise<{ sl
                                                 <span>Tags:</span>
                                                 <ul className="blog-footer-tag">
                                                     <li><Link href="/">Martial Arts</Link></li>
-                                                    <li><Link href="/">Ushu</Link></li>
+                                                    <li><Link href="/">Wushu</Link></li>
                                                 </ul>
                                             </div>
                                         </div>

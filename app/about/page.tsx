@@ -23,24 +23,24 @@ export default function AboutPage() {
                                 <img src="/assets/images/about-2.png" alt="about" />
                                 <div className="about-overlay-content">
                                     <img src="/assets/images/icon/icon-22.png" alt="icon" />
-                                    <h4 className="title">NATIONAL <br /> ushu <br /> AWARD</h4>
+                                    <h4 className="title">NATIONAL <br /> Wushu <br /> AWARD</h4>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 mb-30">
                             <div className="about-content-area">
                                 <div className="section-header">
-                                    <h2 className="section-title">ABOUT <span>ushu</span> Federation</h2>
-                                    <p>USHU supports men, women, teens, and kids looking to pursue the incredible benefits of amateur ushu. Whether you’re interested in a challenging new approach to fitness or have Olympic aspirations.</p>
-                                    <p>Founded in 2003 by veteran ushu trainer/cutman, Russ Anber, Rival entered the marketplace with a promise to “reinvent the industry” by implementing innovations</p>
+                                    <h2 className="section-title">ABOUT <span>Wushu</span> Federation</h2>
+                                    <p>BWUF is the central body for the development and management of the Chinese martial arts "Wushu" in Bangladesh as specified in the International Wushu Federation (IWUF) constitution. </p>
+                                    <p>BWUF was founded in 2007 as "Bangladesh Wushu Association" and has been declared as "Bangladesh Wushu Federation" by National Sports Council-Bangladesh in 2018. It has an established history of working to promote and develop Wushu in Bangladesh and supporting the IWUF Worldwide.</p>
                                 </div>
                                 <ul className="about-list">
-                                    <li>Production or Trading of Good or Services for Sale</li>
-                                    <li>Cost of supplies and equipment</li>
-                                    <li>Change in the volume of expected sales</li>
-                                    <li>From that initial modest order of $2,000</li>
-                                    <li>Everybody is, in one way or another, connected to ushu</li>
-                                </ul>
+                                    <li>Promote the study and safe practice of Chinese Martial Arts Wushu and regulate as far as possible, the ever-growing numbers of clubs and organisations claiming to teach Wushu.</li>
+                                    <li>Affiliate to, assist, co-operate with the support national and international organisations having objectives approved by the International Wushu Federation.</li>
+                                  
+                                    <li>Act as an advisory body on all matters appertaining to the practice of the Wushu, through liaison with statutory and voluntary bodies, news media and other relevant parties.</li>
+                                    
+                                </ul> 
                                 <div className="about-user-area">
                                     <div className="about-user-wrapper">
                                         <div className="about-user-thumb">
@@ -60,7 +60,7 @@ export default function AboutPage() {
                     </div>
                     <div className="about-item-area about-item-area-two pt-120">
                         <div className="row justify-content-center mb-30-none">
-                            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
+                            {/* <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                                 <div className="about-item">
                                     <div className="about-icon">
                                         <img src="/assets/images/icon/icon-23.png" alt="icon" />
@@ -70,26 +70,26 @@ export default function AboutPage() {
                                         <p>We teach martial arts because we want to Unlike other martial arts Federations.</p>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
+                            </div> */}
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-30">
                                 <div className="about-item">
                                     <div className="about-icon">
                                         <img src="/assets/images/icon/icon-24.png" alt="icon" />
                                     </div>
                                     <div className="about-content">
-                                        <h4 className="title">CARDIO AND STRENGTH</h4>
-                                        <p>We teach martial arts because we want to Unlike other martial arts Federations.</p>
+                                        <h4 className="title">Mission</h4>
+                                        <p>Our mission is to Increase wushu spirit and values and promote awareness, interest, participation and success at all levels, therefore enriching the health and well-being of all Bangladeshi's.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-30">
                                 <div className="about-item">
                                     <div className="about-icon">
                                         <img src="/assets/images/icon/icon-25.png" alt="icon" />
                                     </div>
                                     <div className="about-content">
-                                        <h4 className="title">REGIONAL ASSOCIATIONS</h4>
-                                        <p>We teach martial arts because we want to Unlike other martial arts Federations.</p>
+                                        <h4 className="title">Vision</h4>
+                                        <p>Promote the development of wushu in all over Bangladesh as well as worldwide.  Sport, recreation, health, and art form of wushu is a widely recognised and popular among children, young and old.</p>
                                     </div>
                                 </div>
                             </div>
@@ -245,7 +245,7 @@ export default function AboutPage() {
                                                 <div className="client-footer">
                                                     <div className="client-footer-left">
                                                         <h4 className="title"><a href="#0">Andru Smith</a></h4>
-                                                        <span className="sub-title">ushu Trainer</span>
+                                                        <span className="sub-title">Wushu Trainer</span>
                                                     </div>
                                                     <div className="client-footer-right">
                                                         <span className="ratings">
@@ -275,7 +275,7 @@ export default function AboutPage() {
                                                 <div className="client-footer">
                                                     <div className="client-footer-left">
                                                         <h4 className="title"><a href="#0">Mick Tick</a></h4>
-                                                        <span className="sub-title">ushu Trainer</span>
+                                                        <span className="sub-title">Wushu Trainer</span>
                                                     </div>
                                                     <div className="client-footer-right">
                                                         <span className="ratings">

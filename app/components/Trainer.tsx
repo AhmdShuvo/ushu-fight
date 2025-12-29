@@ -7,8 +7,8 @@ export default function Trainer() {
                 <div className="row justify-content-center">
                     <div className="col-xl-6 col-lg-8 text-center">
                         <div className="section-header white" data-aos="fade-up" data-aos-duration="1200">
-                            <h2 className="section-title">OUR <span>EXPERT</span> TRAINERS</h2>
-                            <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
+                            <h2 className="section-title">OUR <span>EXECUTIVE</span> COMMITTEE</h2>
+                            <p>Our Executive Committee is a group of highly skilled and experienced martial artists who are dedicated to promoting the sport of martial arts and ensuring the safety and well-being of our members.</p>
                         </div>
                     </div>
                 </div>
@@ -16,7 +16,7 @@ export default function Trainer() {
                     <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6 mb-30">
                         <div className="trainer-item" data-aos="zoom-in" data-aos-duration="1200">
                             <div className="trainer-thumb">
-                                <img src="assets/images/trainer/trainer-1.png" alt="trainer" />
+                                <img src="assets/images/event/event-4.png" alt="trainer" />
                                 <div className="trainer-overlay">
                                     <div className="share-area">
                                         <div className="share-icon">
@@ -32,15 +32,15 @@ export default function Trainer() {
                                 </div>
                             </div>
                             <div className="trainer-content">
-                                <h3 className="title"><a href="master-details.html">Randall Schwartz</a></h3>
-                                <span className="sub-title">Women's Trainner</span>
+                                <h3 className="title"><a href="master-details.html">Advocate Kamal Hossain</a></h3>
+                                <span className="sub-title">Senior Vice-President</span>
                             </div>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6 mb-30">
                         <div className="trainer-item" data-aos="zoom-in" data-aos-duration="1200">
                             <div className="trainer-thumb">
-                                <img src="assets/images/trainer/trainer-2.png" alt="trainer" />
+                                <img src="assets/images/event/event-4.png" alt="trainer" />
                                 <div className="trainer-overlay">
                                     <div className="share-area">
                                         <div className="share-icon">
@@ -56,15 +56,15 @@ export default function Trainer() {
                                 </div>
                             </div>
                             <div className="trainer-content">
-                                <h3 className="title"><a href="master-details.html">David Sherman</a></h3>
-                                <span className="sub-title">ushu Trainner</span>
+                                <h3 className="title"><a href="master-details.html">Ziaul Haque Jewel</a></h3>
+                                <span className="sub-title">Vice-President</span>
                             </div>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6 mb-30">
                         <div className="trainer-item" data-aos="zoom-in" data-aos-duration="1200">
                             <div className="trainer-thumb">
-                                <img src="assets/images/trainer/trainer-3.png" alt="trainer" />
+                                <img src="assets/images/event/event-4.png" alt="trainer" />
                                 <div className="trainer-overlay">
                                     <div className="share-area">
                                         <div className="share-icon">
@@ -80,15 +80,15 @@ export default function Trainer() {
                                 </div>
                             </div>
                             <div className="trainer-content">
-                                <h3 className="title"><a href="master-details.html">Earl Lopez</a></h3>
-                                <span className="sub-title">ushu Trainner</span>
+                                <h3 className="title"><a href="master-details.html">Md. Tofajjal Hossain</a></h3>
+                                <span className="sub-title">Vice-President</span>
                             </div>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6 mb-30">
                         <div className="trainer-item" data-aos="zoom-in" data-aos-duration="1200">
                             <div className="trainer-thumb">
-                                <img src="assets/images/trainer/trainer-4.png" alt="trainer" />
+                                <img src="assets/images/event/event-4.png" alt="trainer" />
                                 <div className="trainer-overlay">
                                     <div className="share-area">
                                         <div className="share-icon">
@@ -104,8 +104,8 @@ export default function Trainer() {
                                 </div>
                             </div>
                             <div className="trainer-content">
-                                <h3 className="title"><a href="master-details.html">James Gonzalez</a></h3>
-                                <span className="sub-title">Women's Trainner</span>
+                                <h3 className="title"><a href="master-details.html">Sikander Ali Mollah</a></h3>
+                                <span className="sub-title">Vice-President</span>
                             </div>
                         </div>
                     </div>

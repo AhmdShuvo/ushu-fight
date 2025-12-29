@@ -14,7 +14,7 @@ export default function Footer() {
                             <div className="footer-logo">
                                 <Link className="site-logo site-title d-flex align-items-center" href="/">
                                     <img src="/assets/images/logo-removebg-preview.png" alt="site-logo" style={{ maxWidth: '100px' }} />
-                                    <span className="logo-text text-white font-weight-bold ml-2" style={{ fontSize: '24px' }}>USHU</span>
+
                                 </Link>
                             </div>
                             <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation. Fight Federation has specialized in martial arts since 1986 and has one of the most</p>
@@ -41,10 +41,13 @@ export default function Footer() {
                         <div className="footer-widget">
                             <h4 className="title">Contact us</h4>
                             <ul className="footer-list">
-                                <li>350 5th Ave, New York, NY 10118350</li>
-                                <li>5th Ave, New York, NY 10118</li>
-                                <li><span>Email :</span> example@email.com</li>
-                                <li><span>Telephone :</span> +1 (800)-123-4567</li>
+                                <li>Room: 32, 2nd Floor
+                                    Bangabandhu National Stadium
+                                    Puraana Paltan, Dhaka-1000
+                                    Bangladesh</li>
+                                
+                                <li><span>Email :</span>  wushubd@gmail.com</li>
+                                <li><span>Telephone :</span> +88 02 9565503</li>
                             </ul>
                         </div>
                     </div>
@@ -87,7 +90,7 @@ export default function Footer() {
                 <div className="row justify-content-center">
                     <div className="col-xl-12 text-center">
                         <div className="copyright-area">
-                            <p>Copyright {new Date().getFullYear()} USHU. Developed By Developer</p>
+                            <p>Copyright {new Date().getFullYear()} Wushu. Developed By Developer</p>
                         </div>
                     </div>
                 </div>
