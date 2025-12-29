@@ -27,7 +27,7 @@ export default function Tutorial() {
                                                     </a>
                                                 </div>
                                                 <div className="tutorial-content">
-                                                    <h3 className="title">THE BEST BOXERS IN THEIR WEIGH
+                                                    <h3 className="title">THE BEST MEMBERS IN THEIR WEIGH
                                                         TARGET CATEGORY</h3>
                                                 </div>
                                             </div>
@@ -45,7 +45,7 @@ export default function Tutorial() {
                                                     </a>
                                                 </div>
                                                 <div className="tutorial-content">
-                                                    <h3 className="title">THE BEST BOXERS IN THEIR WEIGH
+                                                    <h3 className="title">THE BEST MEMBERS IN THEIR WEIGH
                                                         TARGET CATEGORY</h3>
                                                 </div>
                                             </div>
@@ -63,7 +63,7 @@ export default function Tutorial() {
                                                     </a>
                                                 </div>
                                                 <div className="tutorial-content">
-                                                    <h3 className="title">THE BEST BOXERS IN THEIR WEIGH
+                                                    <h3 className="title">THE BEST MEMBERS IN THEIR WEIGH
                                                         TARGET CATEGORY</h3>
                                                 </div>
                                             </div>
@@ -81,7 +81,7 @@ export default function Tutorial() {
                                                     </a>
                                                 </div>
                                                 <div className="tutorial-content">
-                                                    <h3 className="title">THE BEST BOXERS IN THEIR WEIGH
+                                                    <h3 className="title">THE BEST MEMBERS IN THEIR WEIGH
                                                         TARGET CATEGORY</h3>
                                                 </div>
                                             </div>

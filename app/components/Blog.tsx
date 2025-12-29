@@ -45,7 +45,7 @@ export default function Blog() {
                                         <span className="user">By : Wushu Joy</span>
                                         <span className="category"><a href="blog.html">Trendy</a></span>
                                     </div>
-                                    <h3 className="title"><a href="blog-details.html">THE BEST BOXERS IN THEIR WEIGH TARGET CATEGORIES</a></h3>
+                                    <h3 className="title"><a href="blog-details.html">THE BEST MEMBERS IN THEIR WEIGH TARGET CATEGORIES</a></h3>
                                     <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                                 </div>
                             </div>

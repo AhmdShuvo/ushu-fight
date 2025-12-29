@@ -37,10 +37,10 @@ export default function AboutPage() {
                                 <ul className="about-list">
                                     <li>Promote the study and safe practice of Chinese Martial Arts Wushu and regulate as far as possible, the ever-growing numbers of clubs and organisations claiming to teach Wushu.</li>
                                     <li>Affiliate to, assist, co-operate with the support national and international organisations having objectives approved by the International Wushu Federation.</li>
-                                  
+
                                     <li>Act as an advisory body on all matters appertaining to the practice of the Wushu, through liaison with statutory and voluntary bodies, news media and other relevant parties.</li>
-                                    
-                                </ul> 
+
+                                </ul>
                                 <div className="about-user-area">
                                     <div className="about-user-wrapper">
                                         <div className="about-user-thumb">
@@ -179,7 +179,7 @@ export default function AboutPage() {
                         <div className="col-xl-12">
                             <div className="section-header-wrapper">
                                 <div className="section-header" data-aos="fade-right" data-aos-duration="1200">
-                                    <h2 className="section-title">OUR <span>BOXER</span> TESTIMONIAL</h2>
+                                    <h2 className="section-title">OUR <span>STUDENT'S</span> TESTIMONIAL</h2>
                                     <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                                 </div>
                                 <div className="slider-nav-area" data-aos="fade-left" data-aos-duration="1200">
