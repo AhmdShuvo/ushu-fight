@@ -218,7 +218,7 @@ export default async function ResourcesPage({ params }: { params: Promise<{ slug
                         <div className="row">
                             {data.videos.map((video: any, i: number) => (
                                 <div className="col-lg-4 col-md-6 mb-40" key={i} data-aos="zoom-in" data-aos-duration="1000" data-aos-delay={i * 100}>
-                                    <div className="video-card position-relative" style={{ borderRadius: '15px', overflow: 'hidden', backgroundColor: '#111', cursor: 'pointer', group: 'true' }}>
+                                    <div className="video-card position-relative group" style={{ borderRadius: '15px', overflow: 'hidden', backgroundColor: '#111', cursor: 'pointer' }}>
                                         <div className="video-thumb position-relative" style={{ height: '220px' }}>
                                             <img src={video.thumbnail} alt={video.title} className="w-100 h-100" style={{ objectFit: 'cover', opacity: 0.7, transition: '0.3s' }} />
                                             <div className="play-button position-absolute d-flex justify-content-center align-items-center" style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '60px', height: '60px', backgroundColor: 'rgba(220,53,69,0.9)', color: 'white', borderRadius: '50%', fontSize: '20px', zIndex: 2, transition: '0.3s', boxShadow: '0 0 20px rgba(220,53,69,0.5)' }}>
