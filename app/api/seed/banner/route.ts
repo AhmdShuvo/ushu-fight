@@ -14,27 +14,47 @@ import Gallery from '@/models/Gallery';
 export async function GET() {
     await dbConnect();
 
-    const currentBanner = {
-        subTitle: "WELCOME TO Wushu",
-        title: "MASTER THE ART OF",
-        innerTitle: "WUSHU FIGHTING",
-        description: "Embark on a journey of discipline and strength. Our Wushu Federation combines traditional Kung Fu wisdom with modern combat techniques. Discover your inner warrior and achieve physical and mental excellence.",
-        backgroundImage: "/assets/images/bg/bg-5.png",
-        bannerThumb: "/assets/images/element/element-8.png",
-        widgetText: "Join over",
-        widgetTextCount: "4,000+",
-        buttonText: "Apply Now",
-        buttonLink: "#contact",
-        elements: {
-            element7: "/assets/images/element/element-7.png",
-            element26: "/assets/images/element/element-26.png",
-            element11: "/assets/images/element/element-11.png",
-            element12: "/assets/images/element/element-12.png",
-            element13: "/assets/images/element/element-13.png",
-            element10: "/assets/images/element/element-10.png",
-            element9: "/assets/images/element/element-9.png",
+    const currentBanners = [
+        {
+            subTitle: "#1 Wushu Federation IN BANGLADESH",
+            title: "BE A WORRIOR IN LIFE",
+            innerTitle: "MIND.BODY & SPIRIT IMPROVED",
+            description: "BANGLADESH WUSHU FEDERATION",
+            backgroundImage: "/assets/images/bg/bg-22.png",
+            bannerThumb: "none",
+            widgetText: "none",
+            widgetTextCount: "none",
+            buttonText: "Apply Now",
+            buttonLink: "#contact",
+            order: 1
+        },
+        {
+            subTitle: "#2 SANDA COMBAT SPECIALISTS",
+            title: "STRIKE WITH PRECISION",
+            innerTitle: "LEARN FROM THE BEST",
+            description: "JOIN OUR EXPERT INSTRUCTORS TODAY",
+            backgroundImage: "/assets/images/bg/bg-5.png",
+            bannerThumb: "none",
+            widgetText: "none",
+            widgetTextCount: "none",
+            buttonText: "Our Classes",
+            buttonLink: "#classes",
+            order: 2
+        },
+        {
+            subTitle: "#3 TRADITIONAL KUNG FU",
+            title: "MASTER ANCIENT FORMS",
+            innerTitle: "FLEXIBILITY & DISCIPLINE",
+            description: "EMBARK ON A JOURNEY OF DISCIPLINE AND STRENGTH",
+            backgroundImage: "/assets/images/bg/bg-12.png",
+            bannerThumb: "none",
+            widgetText: "none",
+            widgetTextCount: "none",
+            buttonText: "Discover More",
+            buttonLink: "#about",
+            order: 3
         }
-    };
+    ];
 
     const currentAbout = {
         title: "ABOUT",
@@ -237,7 +257,7 @@ export async function GET() {
 
     try {
         await Banner.deleteMany({});
-        await Banner.create(currentBanner);
+        await Banner.insertMany(currentBanners);
 
         await About.deleteMany({});
         await About.create(currentAbout);

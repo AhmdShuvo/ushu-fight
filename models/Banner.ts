@@ -6,20 +6,13 @@ export interface IBanner extends Document {
     innerTitle: string;
     description: string;
     backgroundImage: string;
-    bannerThumb: string;
-    widgetText: string;
-    widgetTextCount: string;
+    bannerThumb?: string;
+    widgetText?: string;
+    widgetTextCount?: string;
     buttonText: string;
     buttonLink: string;
-    elements: {
-        element7: string;
-        element26: string;
-        element11: string;
-        element12: string;
-        element13: string;
-        element10: string;
-        element9: string;
-    };
+    order: number;
+    elements?: any;
 }
 
 const BannerSchema: Schema = new Schema({
@@ -28,20 +21,13 @@ const BannerSchema: Schema = new Schema({
     innerTitle: { type: String, required: true },
     description: { type: String, required: true },
     backgroundImage: { type: String, required: true },
-    bannerThumb: { type: String, required: true },
-    widgetText: { type: String, required: true },
-    widgetTextCount: { type: String, required: true },
+    bannerThumb: { type: String },
+    widgetText: { type: String },
+    widgetTextCount: { type: String },
     buttonText: { type: String, required: true },
     buttonLink: { type: String, required: true },
-    elements: {
-        element7: { type: String },
-        element26: { type: String },
-        element11: { type: String },
-        element12: { type: String },
-        element13: { type: String },
-        element10: { type: String },
-        element9: { type: String },
-    },
+    order: { type: Number, default: 0 },
+    elements: { type: Schema.Types.Mixed },
 }, { timestamps: true });
 
 export default mongoose.models.Banner || mongoose.model<IBanner>('Banner', BannerSchema);

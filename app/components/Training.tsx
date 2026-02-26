@@ -1,13 +1,32 @@
-import React from 'react';
+'use client';
+
+import React, { useEffect, useState } from 'react';
+import TrainingSlider from './TrainingSlider';
 
 export default function Training() {
+    const [styles, setStyles] = useState<any[]>([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        fetch('/api/training')
+            .then(res => res.json())
+            .then(data => {
+                setStyles(data.styles || []);
+                setLoading(false);
+            })
+            .catch(err => {
+                console.error("Failed to fetch styles:", err);
+                setLoading(false);
+            });
+    }, []);
+
     return (
         <section id="training" className="training-section ptb-120">
             <div className="training-element-one my-paroller" data-paroller-factor="0.08" data-paroller-type="foreground" data-paroller-direction="horizontal">
-                <img src="assets/images/element/element-1.png" alt="element" />
+                <img src="/assets/images/element/element-1.png" alt="element" />
             </div>
             <div className="training-element-two my-paroller" data-paroller-factor="0.08" data-paroller-type="foreground" data-paroller-direction="horizontal">
-                <img src="assets/images/element/element-2.png" alt="element" />
+                <img src="/assets/images/element/element-2.png" alt="element" />
             </div>
             <div className="container">
                 <div className="row">
@@ -18,10 +37,10 @@ export default function Training() {
                                 <p>Fight Federation has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</p>
                             </div>
                             <div className="slider-nav-area">
-                                <div className="slider-prev">
+                                <div className="slider-prev" style={{ cursor: 'pointer' }}>
                                     <i className="fas fa-chevron-left"></i>
                                 </div>
-                                <div className="slider-next">
+                                <div className="slider-next" style={{ cursor: 'pointer' }}>
                                     <i className="fas fa-chevron-right"></i>
                                 </div>
                             </div>
@@ -31,67 +50,17 @@ export default function Training() {
                 <div className="row justify-content-center">
                     <div className="col-xl-12">
                         <div className="training-slider-area">
-                            <div className="training-slider">
-                                <div className="swiper-wrapper">
-                                    <div className="swiper-slide">
-                                        <div className="training-item text-center">
-                                            <div className="training-icon">
-                                                <img src="assets/images/icon/icon-3.png" alt="icon" />
-                                            </div>
-                                            <div className="training-content">
-                                                <h3 className="title"><a href="training-details.html">ENGLISH Wushu</a></h3>
-                                                <p>Transport or transportation is the movement of humans, animals and goods from one location.</p>
-                                            </div>
-                                            <div className="training-overlay bg-overlay-base bg_img" style={{ backgroundImage: "url('assets/images/training/training-1.png')" }}>
-                                                <div className="training-overlay-content">
-                                                    <h3 className="title"><a href="training-details.html">ENGLISH Wushu TRAINING</a></h3>
-                                                    <div className="training-btn">
-                                                        <a href="training-details.html" className="btn--base active">Training Details <i className="fas fa-arrow-right ml-2"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="swiper-slide">
-                                        <div className="training-item text-center">
-                                            <div className="training-icon">
-                                                <img src="assets/images/icon/icon-4.png" alt="icon" />
-                                            </div>
-                                            <div className="training-content">
-                                                <h3 className="title"><a href="training-details.html">PERSONAL Wushu</a></h3>
-                                                <p>Transport or transportation is the movement of humans, animals and goods from one location.</p>
-                                            </div>
-                                            <div className="training-overlay bg-overlay-base bg_img" style={{ backgroundImage: "url('assets/images/training/training-1.png')" }}>
-                                                <div className="training-overlay-content">
-                                                    <h3 className="title"><a href="training-details.html">PERSONAL Wushu TRAINING</a></h3>
-                                                    <div className="training-btn">
-                                                        <a href="training-details.html" className="btn--base active">Training Details <i className="fas fa-arrow-right ml-2"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="swiper-slide">
-                                        <div className="training-item text-center">
-                                            <div className="training-icon">
-                                                <img src="assets/images/icon/icon-5.png" alt="icon" />
-                                            </div>
-                                            <div className="training-content">
-                                                <h3 className="title"><a href="training-details.html">KICK Wushu</a></h3>
-                                                <p>Transport or transportation is the movement of humans, animals and goods from one location.</p>
-                                            </div>
-                                            <div className="training-overlay bg-overlay-base bg_img" style={{ backgroundImage: "url('assets/images/training/training-1.png')" }}>
-                                                <div className="training-overlay-content">
-                                                    <h3 className="title"><a href="training-details.html">KICK Wushu TRAINING</a></h3>
-                                                    <div className="training-btn">
-                                                        <a href="training-details.html" className="btn--base active">Training Details <i className="fas fa-arrow-right ml-2"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            {loading ? (
+                                <div className="text-center py-5">
+                                    <h4 className="text-white">Loading Training Styles...</h4>
                                 </div>
-                            </div>
+                            ) : styles.length > 0 ? (
+                                <TrainingSlider styles={styles} />
+                            ) : (
+                                <div className="text-center py-5">
+                                    <h4 className="text-white">No training styles available right now.</h4>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>
@@ -99,3 +68,4 @@ export default function Training() {
         </section>
     );
 }
+

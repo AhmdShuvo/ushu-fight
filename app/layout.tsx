@@ -55,6 +55,7 @@ export default function RootLayout({
           <Toaster position="top-center" reverseOrder={false} />
           <AosInit />
           <Header />
+
           {children}
           <Footer />
           <ScrollToTop />
